@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.10.3/addons/master_products.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:16\n"
+
+msgctxt "Addons::name::master_products"
+msgid "Common Products for Vendors [Beta]"
+msgstr "Общие товары для продавцов [Beta]"
+
+msgctxt "Addons::description::master_products"
+msgid "Allows you to create a single product base: vendors choose which of the existing products they sell."
+msgstr "Позволяет вам создать единую базу товаров: продавцы будут выбирать, какие из существующих в базе товаров они продают."
+
+msgctxt "SettingsSections::master_products::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::master_products::allow_vendors_to_create_products"
+msgid "Allow vendors to create products"
+msgstr "Разрешить продавцам создавать товары"
+
+msgctxt "SettingsTooltips::master_products::allow_vendors_to_create_products"
+msgid "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+msgstr "Если не включать эту настройку, то продавцы смогут продавать только те товары, которые добавите вы."
+
+msgctxt "Languages::master_products.vendor_products_tab_name"
+msgid "Sellers of this product"
+msgstr "Предложения от продавцов"
+
+msgctxt "Languages::master_products.vendor_products_filling"
+msgid "Sellers of this product"
+msgstr "Предложения от продавцов"
+
+msgctxt "Languages::master_products.vendor_products_block_name"
+msgid "Sellers of a product"
+msgstr "Предложения от продавцов"
+
+msgctxt "Languages::master_products.products_that_vendors_can_sell"
+msgid "Products that vendors can sell"
+msgstr "Товары, которые можно продавать"
+
+msgctxt "Languages::master_products.products_being_sold"
+msgid "Products being sold"
+msgstr "Товары в продаже"
+
+msgctxt "Languages::master_products.all_products"
+msgid "All products"
+msgstr "Все товары"
+
+msgctxt "Languages::master_products.add_product_from_catalog"
+msgid "Add product from catalog"
+msgstr "Добавить товар из каталога"
+
+msgctxt "Languages::master_products.create_new_product"
+msgid "Create new product"
+msgstr "Создать новый товар"
+
+msgctxt "Languages::master_products.sell_this"
+msgid "Sell this"
+msgstr "Продавать"
+
+msgctxt "Languages::master_products.for_sale"
+msgid "For sale"
+msgstr "Продаётся"
+
+msgctxt "Languages::master_products.sell_selected"
+msgid "Sell selected"
+msgstr "Продавать выбранные"
+
+msgctxt "Languages::master_products.products_were_added_to_your_products"
+msgid "[n] product was added to your products|[n] products were added to your products"
+msgstr "[n] товар был добавлен в продажу|[n] товара были добавлены в продажу|[n] товаров было добавлено в продажу"
+
+msgctxt "Languages::master_products.master_product"
+msgid "Common product"
+msgstr "Общий товар"
+
+msgctxt "Languages::master_products.all_vendors_master_product"
+msgid "All vendors (common product)"
+msgstr "Все продавцы (общий товар)"
+
+msgctxt "Languages::master_products.exported_products"
+msgid "Products to export"
+msgstr "Экспортируемые товары"
+
+msgctxt "Languages::master_products.price_from"
+msgid "From [formatted_price]"
+msgstr "От [formatted_price]"
+
+msgctxt "Languages::master_products.product_type.offer"
+msgid "Vendor offer"
+msgstr "Предложение продавца"
+
+msgctxt "Languages::master_products.upgrade_notification.title"
+msgid "Common Products for Vendors: Add-on now works only with global options"
+msgstr "Общие товары для продавцов: Теперь модуль работает только с глобальными опциями"
+
+msgctxt "Languages::master_products.upgrade_notification.message"
+msgid "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"
+msgstr "<p>По техническим причинам, модуль <b>[master_product_addon]</b> теперь работает только с глобальными опциями. При обновлении мы уже конвертировали опции в глобальные у тех товаров, которые продаёт хотя бы один продавец.</p>"
+

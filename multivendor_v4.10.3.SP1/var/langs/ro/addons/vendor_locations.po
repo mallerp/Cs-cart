@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_locations.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 11:59\n"
+
+msgctxt "Addons::name::vendor_locations"
+msgid "Vendor locations [Beta]"
+msgstr ""
+
+msgctxt "Addons::description::vendor_locations"
+msgid "Allows vendors to specify their addresses, so that customers can see distance to vendors and filter products and vendors by their locations."
+msgstr ""
+
+msgctxt "SettingsOptions::vendor_locations::api_key"
+msgid "Google Maps API key"
+msgstr ""
+
+msgctxt "SettingsTooltips::vendor_locations::api_key"
+msgid "Get the API key by following the instructions here: https://developers.google.com/maps/documentation/javascript/get-api-key"
+msgstr ""
+
+msgctxt "SettingsOptions::vendor_locations::start_search_radius"
+msgid "Default radius in distance filter"
+msgstr ""
+
+msgctxt "SettingsTooltips::vendor_locations::start_search_radius"
+msgid "You can manually add a product filter that allows customers to search for products within a certain distance if they enter their location. This setting determines the default search radius for that filter. If you don't create a filter, products will be shown regardless of distance, and this setting won't have any effect."
+msgstr "Poți adăuga manual un filtru produs care permite clienților să caute produse într-o anumită distanță dacă introduc locația lor. Această setare determină raza implicită de căutare pentru filtrul respectiv. Dacă nu creezi un filtru, produsele vor fi afișate indiferent de distantă, și această setare nu va avea niciun efect."
+
+msgctxt "SettingsOptions::vendor_locations::max_search_radius"
+msgid "Maximum radius in distance filter"
+msgstr ""
+
+msgctxt "SettingsTooltips::vendor_locations::max_search_radius"
+msgid "You can manually add a product filter that allows customers to search for products within a certain distance if they enter their location. This setting determines the maximum search radius possible for that filter. If you don't create a filter, products will be shown regardless of distance, and this setting won't have any effect."
+msgstr "Poți adăuga manual un filtru produs care permite clienților să caute produse într-o anumită distanță dacă introduc locația lor. Această setare determină raza maximă de căutare pentru filtrul respectiv. Dacă nu creezi un filtru, produsele vor fi afișate indiferent de distantă, și această setare nu va avea niciun efect."
+
+msgctxt "SettingsOptions::vendor_locations::distance_unit"
+msgid "Distance measurement unit"
+msgstr ""
+
+msgctxt "SettingsVariants::vendor_locations::distance_unit::km"
+msgid "km"
+msgstr ""
+
+msgctxt "SettingsVariants::vendor_locations::distance_unit::miles"
+msgid "mi"
+msgstr ""
+
+msgctxt "SettingsOptions::vendor_locations::filter_by"
+msgid "Vendors shown by default"
+msgstr ""
+
+msgctxt "SettingsTooltips::vendor_locations::filter_by"
+msgid "Determines what vendors are shown on the vendor list page (and on the map displayed on that page) by default."
+msgstr ""
+
+msgctxt "SettingsVariants::vendor_locations::filter_by::none"
+msgid "All"
+msgstr ""
+
+msgctxt "SettingsVariants::vendor_locations::filter_by::city"
+msgid "From customer's city"
+msgstr ""
+
+msgctxt "SettingsVariants::vendor_locations::filter_by::country"
+msgid "From customer's country"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.location"
+msgid "Location"
+msgstr ""
+
+msgctxt "Languages::tt_addons_vendor_locations_hooks_companies_shipping_address_post_vendor_locations.location"
+msgid "The address that will be used to determine the position on Google Maps."
+msgstr ""
+
+msgctxt "Languages::block_location_selector"
+msgid "Customer's location"
+msgstr ""
+
+msgctxt "Languages::block_location_selector_description"
+msgid "Enter address to search by location"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.search_vendors_by_address"
+msgid "Search vendors"
+msgstr ""
+
+msgctxt "Languages::block_search_vendors"
+msgid "Vendors by location"
+msgstr ""
+
+msgctxt "Languages::block_search_vendors_description"
+msgid "Search for vendors in a specific location"
+msgstr ""
+
+msgctxt "Languages::block_closest_vendors"
+msgid "Closest vendors"
+msgstr ""
+
+msgctxt "Languages::block_closest_vendors_description"
+msgid "Vendors from customer's city"
+msgstr ""
+
+msgctxt "Languages::block_vendors_map"
+msgid "Vendor map"
+msgstr ""
+
+msgctxt "Languages::block_vendors_map_description"
+msgid "A map of all vendors"
+msgstr ""
+
+msgctxt "Languages::vendor_location.search_vendors_geolocation"
+msgid "Search for vendors"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.block_template_location_selector"
+msgid "Location selector"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.filter_by_city"
+msgid "Vendor's city"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.filter_by_distance"
+msgid "Distance to vendor"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.customer_geolocation"
+msgid "Your location"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.select_city"
+msgid "Select a city"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.selected_city"
+msgid "Selected city"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.not_your_city"
+msgid "Not your city?"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.search_city"
+msgid "Search for a city"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.search_nearby"
+msgid "Search nearby"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.nearby"
+msgid "Nearby"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.vendors_map"
+msgid "Vendors map"
+msgstr ""
+
+msgctxt "Languages::vendor_locations.closest_vendors"
+msgid "Closest vendors"
+msgstr ""
+

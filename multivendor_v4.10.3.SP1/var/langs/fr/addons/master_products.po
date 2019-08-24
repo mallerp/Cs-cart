@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: French\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /release-4.10.3/addons/master_products.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:00\n"
+
+msgctxt "Addons::name::master_products"
+msgid "Common Products for Vendors [Beta]"
+msgstr "Produits Courants pour les Vendeurs [Beta]"
+
+msgctxt "Addons::description::master_products"
+msgid "Allows you to create a single product base: vendors choose which of the existing products they sell."
+msgstr "Vous permet de créer une base de produits commune et unique : les vendeurs y choisissent quels produits ils veulent vendre."
+
+msgctxt "SettingsSections::master_products::general"
+msgid "General"
+msgstr "Général"
+
+msgctxt "SettingsOptions::master_products::allow_vendors_to_create_products"
+msgid "Allow vendors to create products"
+msgstr "Permettre aux vendeurs de créer des produits"
+
+msgctxt "SettingsTooltips::master_products::allow_vendors_to_create_products"
+msgid "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+msgstr "Si vous ne le permettez pas, les vendeurs ne pourront vendre que les produits que vous avez vous-même ajouté au marché."
+
+msgctxt "Languages::master_products.vendor_products_tab_name"
+msgid "Sellers of this product"
+msgstr "Vendeurs de ce produit"
+
+msgctxt "Languages::master_products.vendor_products_filling"
+msgid "Sellers of this product"
+msgstr "Vendeurs de ce produit"
+
+msgctxt "Languages::master_products.vendor_products_block_name"
+msgid "Sellers of a product"
+msgstr "Vendeurs d’un produit"
+
+msgctxt "Languages::master_products.products_that_vendors_can_sell"
+msgid "Products that vendors can sell"
+msgstr "Produits pouvant être mis en vente"
+
+msgctxt "Languages::master_products.products_being_sold"
+msgid "Products being sold"
+msgstr "Produits en vente"
+
+msgctxt "Languages::master_products.all_products"
+msgid "All products"
+msgstr "Tous produits"
+
+msgctxt "Languages::master_products.add_product_from_catalog"
+msgid "Add product from catalog"
+msgstr "Ajouter un produit du catalogue"
+
+msgctxt "Languages::master_products.create_new_product"
+msgid "Create new product"
+msgstr "Créer un nouveau produit"
+
+msgctxt "Languages::master_products.sell_this"
+msgid "Sell this"
+msgstr "Vendre ceci"
+
+msgctxt "Languages::master_products.for_sale"
+msgid "For sale"
+msgstr "A vendre"
+
+msgctxt "Languages::master_products.sell_selected"
+msgid "Sell selected"
+msgstr "Vendre sélection"
+
+msgctxt "Languages::master_products.products_were_added_to_your_products"
+msgid "[n] product was added to your products|[n] products were added to your products"
+msgstr "[n] produit a été ajouté à vos produits|[n] produits ont été ajoutés à vos produits"
+
+msgctxt "Languages::master_products.master_product"
+msgid "Common product"
+msgstr "Produit courant"
+
+msgctxt "Languages::master_products.all_vendors_master_product"
+msgid "All vendors (common product)"
+msgstr "Tous vendeurs (produit courant)"
+
+msgctxt "Languages::master_products.exported_products"
+msgid "Products to export"
+msgstr "Produits à exporter"
+
+msgctxt "Languages::master_products.price_from"
+msgid "From [formatted_price]"
+msgstr "De [formatted_price]"
+
+msgctxt "Languages::master_products.product_type.offer"
+msgid "Vendor offer"
+msgstr ""
+
+msgctxt "Languages::master_products.upgrade_notification.title"
+msgid "Common Products for Vendors: Add-on now works only with global options"
+msgstr ""
+
+msgctxt "Languages::master_products.upgrade_notification.message"
+msgid "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"
+msgstr ""
+

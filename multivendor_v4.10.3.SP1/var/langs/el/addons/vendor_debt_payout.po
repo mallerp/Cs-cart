@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_debt_payout.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:06\n"
+
+msgctxt "Addons::name::vendor_debt_payout"
+msgid "Vendor debt payout"
+msgstr "πληρωμή Χρέους πωλητη"
+
+msgctxt "Addons::description::vendor_debt_payout"
+msgid "Restricts the functionality of vendors' admin panels under certain conditions and enables your vendors to pay their fees and debts from their admin panel dashboards. It is as easy as purchasing a product from the storefront."
+msgstr "Περιορίζει τη λειτουργικότητα πάνελ admin των πωλητών υπό ορισμένες προϋποθέσεις και επιτρέπει στους πωλητές σας να πληρώσουν τις αμοιβές και τα χρέη από τους πίνακες του admin panel. Είναι τόσο εύκολη όσο η αγορά ενός προϊόντος από τη βιτρίνα."
+
+msgctxt "Languages::vendor_debt_payout.debt_payout"
+msgid "Marketplace fees"
+msgstr "Έξοδα Marketplace"
+
+msgctxt "Languages::vendor_debt_payout.debt_payout_w_order"
+msgid "Marketplace fees (order #[id])"
+msgstr "Έξοδα Marketplace (παραγγελία #[id])"
+
+msgctxt "Languages::vendor_debt_payout.pay_fees"
+msgid "Pay the fees"
+msgstr "Καταβολη αμοιβων"
+
+msgctxt "Languages::vendor_debt_payout.vendor_debt_limit"
+msgid "Restrict admin panel functions if vendor's debt reaches"
+msgstr "Περιορίστε τις λειτουργίες του πίνακα διαχειριστή αν φτάσει το χρέος του πωλητή"
+
+msgctxt "Languages::ttc_vendor_debt_payout.vendor_debt_limit"
+msgid "When a vendor's balance is negative and reaches this number, the vendor's administration panel will not allow to perform any actions. When a vendor's negative balance is half this number, the vendor will see the warning specified in the \"vendor_debt_payout.debt_near_limit_message\" language variable."
+msgstr "Όταν το υπόλοιπο του πωλητή είναι αρνητικό και φτάσει σε αυτόν τον αριθμό, ο πίνακας διαχείρισης του πωλητή δεν θα επιτρέψει την εκτέλεση οποιωνδήποτε ενεργειών. Όταν το αρνητικό υπόλοιπο ενός πωλητή είναι το ήμισυ αυτού του αριθμού, ο πωλητής θα δει την προειδοποίηση που καθορίζεται στη μεταβλητή γλώσσας \"vendor_debt_payout.debt_near_limit_message\"."
+
+msgctxt "Languages::vendor_debt_payout.payout_overdue_limit"
+msgid "Grace period for vendor plan fees"
+msgstr "Περίοδος χάριτος για αμοιβες πλανου Πωλητων"
+
+msgctxt "Languages::ttc_vendor_debt_payout.payout_overdue_limit"
+msgid "Payments for plans are drawn from the vendor's account balance. If the balance gets negative after the fee is taken, and this period expires, the vendor's administration panel will not allow to perform any actions until the vendor pays the debt."
+msgstr "Οι πληρωμές για τα πλανα προέρχονται από το υπόλοιπο του λογαριασμού του πωλητή. Εάν το υπόλοιπο γίνει αρνητικό μετά την είσπραξη του τέλους και η περίοδος αυτή λήξει, ο πίνακας διαχείρισης του πωλητή δεν θα επιτρέψει την εκτέλεση οποιασδήποτε ενέργειας έως ότου ο πωλητής πληρώσει το χρέος."
+
+msgctxt "Languages::vendor_debt_payout.day_or_days"
+msgid "day(s)"
+msgstr "ημέρα (ες)"
+
+msgctxt "Languages::vendor_debt_payout.pending_payout_message"
+msgid "You need to pay the fee of [fee_amount] for using the [plan_name] plan. Your current account balance is [current_balance]. If the fee isn't paid until [overdue_date], you won't be able to work with the administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Θα πρέπει να καταβάλετε το ποσό των [fee_amount] για τη χρηση του πλανου [plan_name] . Το ισοζύγιο τρεχουσών συναλλαγών είναι [current_balance]. Αν δεν καταβληθεί το ποσο μέχρι [overdue_date], δεν θα μπορείτε να χρησιμοποιησετε το  administration panel  μέχρι να <a href=\"[pay_url]\" target=\"_blank\">πληρώσετε  όλες τις αμοιβες του marketplace</a>."
+
+msgctxt "Languages::vendor_debt_payout.debt_near_limit_message"
+msgid "Your account balance is currently [current_balance]. If it reaches [minimal_balance], you won't be able to use your administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Υπόλοιπο του λογαριασμού σας είναι [current_balance]. Αν φτάσει σε [minimal_balance], δεν θα μπορείτε να χρησιμοποιήσετε το administration panel  μέχρι να <a href=\"[pay_url]\" target=\"_blank\">πληρώσετε όλες τις αμοιβες του marketplace</a>."
+
+msgctxt "Languages::vendor_debt_payout.block_alert"
+msgid "<p>Your access to the administration panel has been restricted automatically because you have reached the limit of negative account balance or haven't paid a fee for your vendor plan in time.</p><p>Your current account balance is [current_balance].</p><p>Please <a href=\"[pay_url]\">pay the marketplace fees</a> — once the payment is processed, your access to the administration panel will be restored automatically.</p>"
+msgstr "<p>Η πρόσβαση σας στον πίνακα διαχείρισης έχει περιοριστεί αυτόματα επειδή έχετε φτάσει το όριο του αρνητικό υπόλοιπο του λογαριασμού σας ή δεν έχει καταβληθεί η αμοιβή για το δικο σας πλανο πωλητη εγκαίρως.</p><p>το ισοζύγιο τρεχουσών συναλλαγών είναι [current_balance].</p><p> <a href=\"[pay_url]\">καταβάλετε τα τελη του marketplace</a> — αφού γίνει η επεξεργασία της πληρωμής, θα επανλεθει η πρόσβαση στον πίνακα διαχείρισης Αυτόματα.</p>"
+

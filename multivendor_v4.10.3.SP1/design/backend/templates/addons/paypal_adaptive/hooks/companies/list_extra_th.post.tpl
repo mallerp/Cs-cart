@@ -1,0 +1,1 @@
+<th width="5%">{__("paypal_verification")}</th>

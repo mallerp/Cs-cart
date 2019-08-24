@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>vendor_debt_payout</id>
+    <version>1.0</version>
+    <priority>4294967294</priority>
+    <position>0</position>
+    <status>active</status>
+    <auto_install>MULTIVENDOR</auto_install>
+    <default_language>en</default_language>
+    <compatibility>
+        <core_edition>MULTIVENDOR</core_edition>
+        <conflicts>paypal_for_marketplaces</conflicts>
+    </compatibility>
+    <queries>
+        <item for="install">ALTER TABLE ?:categories ADD COLUMN category_type CHAR(1) NOT NULL DEFAULT 'C';</item>
+        <item for="uninstall">ALTER TABLE ?:categories DROP COLUMN category_type;</item>
+    </queries>
+    <functions>
+        <item for="install">fn_vendor_debt_payout_install</item>
+        <item for="uninstall">fn_vendor_debt_payout_uninstall</item>
+    </functions>
+    <settings>
+        <sections>
+            <section id="general">
+                <items>
+                    <item id="vendor_debt_limit">
+                        <type>hidden</type>
+                        <default_value></default_value>
+                    </item>
+                    <item id="payout_overdue_limit">
+                        <type>hidden</type>
+                        <default_value>10</default_value>
+                    </item>
+                    <item id="settings_template">
+                        <type>template</type>
+                        <default_value>settings.tpl</default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+</addon>

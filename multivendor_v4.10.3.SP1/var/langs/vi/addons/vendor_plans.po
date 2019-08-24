@@ -1,0 +1,350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_plans.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:24\n"
+
+msgctxt "Addons::name::vendor_plans"
+msgid "Vendor plans"
+msgstr "Trang nhà cung cấp"
+
+msgctxt "Addons::description::vendor_plans"
+msgid "Create plans with different restrictions and prices for your vendors"
+msgstr "Tạo kế hoạch với những hạn chế khác nhau và giá cả cho các nhà cung cấp của bạn"
+
+msgctxt "SettingsOptions::vendor_plans::commissions_header"
+msgid "Commissions"
+msgstr "Hoa hồng"
+
+msgctxt "SettingsOptions::vendor_plans::include_shipping"
+msgid "Include shipping cost in vendor commissions"
+msgstr ""
+
+msgctxt "SettingsOptions::vendor_plans::include_taxes_in_commission"
+msgid "Include taxes in vendor commissions"
+msgstr ""
+
+msgctxt "SettingsTooltips::vendor_plans::include_taxes_in_commission"
+msgid "Calculate vendor commissions without subtracting taxes from the order total beforehand."
+msgstr ""
+
+msgctxt "SettingsOptions::vendor_plans::allow_vendors_to_change_plan"
+msgid "Allow vendors to change their current plan"
+msgstr "Cho phép các nhà cung cấp để thay đổi kế hoạch hiện tại của họ"
+
+msgctxt "Languages::vendor_plans.vendor_plans"
+msgid "Vendor plans"
+msgstr "Trang nhà cung cấp"
+
+msgctxt "Languages::block_vendor_plan_info"
+msgid "Vendor plan info"
+msgstr "Thông tin nhà gói cung cấp"
+
+msgctxt "Languages::block_vendor_plan_info_description"
+msgid "Shows information about the selected vendor plan"
+msgstr "Hiển thị các thông tin về kế hoạch lựa chọn nhà cung cấp"
+
+msgctxt "Languages::vendor_plans.plan"
+msgid "Plan"
+msgstr "Gói dịch vụ"
+
+msgctxt "Languages::vendor_plans.commission"
+msgid "Commission"
+msgstr "Hoa hồng"
+
+msgctxt "Languages::vendor_plans.restrictions"
+msgid "Restrictions"
+msgstr "Hạn chế"
+
+msgctxt "Languages::vendor_plans.vendor_plans_menu_description"
+msgid "Create plans for your vendors, with different restrictions and prices"
+msgstr "Tạo kế hoạch cho các đại lý của bạn, với những hạn chế khác nhau và giá"
+
+msgctxt "Languages::vendor_plans.periodicity_month"
+msgid "per month"
+msgstr "mỗi tháng"
+
+msgctxt "Languages::vendor_plans.periodicity_year"
+msgid "per year"
+msgstr "mỗi năm"
+
+msgctxt "Languages::vendor_plans.periodicity_onetime"
+msgid "one time"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.products_limit"
+msgid "Max. products"
+msgstr "Tối đa sản phẩm"
+
+msgctxt "Languages::vendor_plans.products_limit_tooltip"
+msgid "Set the maximum number of products a vendor can have on this plan. Leave empty to allow unlimited number of products."
+msgstr "Thiết lập số lượng tối đa của sản phẩm một nhà cung cấp có thể có trong kế hoạch này. Để trống để cho phép không giới hạn số lượng sản phẩm."
+
+msgctxt "Languages::vendor_plans.vendor_store_tooltip"
+msgid "A vendor can have his or her own microstore at a separate address like <i>example.com/vendor/</i>. A microstore only contains products of the vendor who owns this microstore. Also, search results in a vendor's microstore only include products of this vendor."
+msgstr "Một nhà cung cấp có thể microstore của mình tại một địa chỉ riêng biệt như <i>example.com/vendor/</i>. Một microstore chỉ chứa các sản phẩm của nhà cung cấp những người sở hữu microstore này. Ngoài ra, kết quả tìm kiếm trong một nhà bán microstore chỉ bao gồm các sản phẩm của nhà cung cấp này."
+
+msgctxt "Languages::vendor_plans.add_vendor_plan"
+msgid "Add vendor plan"
+msgstr "Thêm gói nhà cung cấp"
+
+msgctxt "Languages::vendor_plans.new_vendor_plan"
+msgid "New vendor plan"
+msgstr "Gói nhà cung cấp mới"
+
+msgctxt "Languages::vendor_plans.editing_vendor_plan"
+msgid "Editing vendor plan"
+msgstr "Chỉnh sửa nhà cung cấp"
+
+msgctxt "Languages::vendor_plans.delete_plan_vendor_exists_text"
+msgid "Couldn't delete the plan: some vendors use it"
+msgstr "Không thể xóa bỏ kế hoạch: một số nhà cung cấp sử dụng nó"
+
+msgctxt "Languages::vendor_plans.disable_plan_vendor_exists_text"
+msgid "Couldn't disable the plan: some vendors use it"
+msgstr "Không thể xóa bỏ kế hoạch: một số nhà cung cấp sử dụng nó"
+
+msgctxt "Languages::vendor_plans.transaction_fee"
+msgid "Transaction fee"
+msgstr "Phí giao dịch"
+
+msgctxt "Languages::vendor_plans.fixed_transaction_fee"
+msgid "Transaction fee (abs)"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.revenue"
+msgid "Revenue"
+msgstr "Doanh thu"
+
+msgctxt "Languages::vendor_plans.revenue_up_to"
+msgid "Revenue up to"
+msgstr "Doanh thu lên đến"
+
+msgctxt "Languages::vendor_plans.revenue_up_to_tooltip"
+msgid "The maximum monthly revenue allowed for the vendors who use this plan. Leave this field empty to allow unlimited revenue."
+msgstr "Doanh thu hàng tháng tối đa được phép đối với các nhà cung cấp sử dụng kế hoạch này. Để lĩnh vực này trống thu không giới hạn cho phép."
+
+msgctxt "Languages::vendor_plans.vendor_store"
+msgid "Vendor microstore"
+msgstr "Người bán hàng microstore"
+
+msgctxt "Languages::vendor_plans.best_choise"
+msgid "Offer as the best choice"
+msgstr "Cung cấp là sự lựa chọn tốt nhất"
+
+msgctxt "Languages::vendor_plans.best_choise_short"
+msgid "Best choice"
+msgstr "Lựa chọn tốt nhất"
+
+msgctxt "Languages::vendor_plans.select_plan_text"
+msgid "You will be charged for the plan after the admin approves your vendor account"
+msgstr "Bạn sẽ phải trả cho các kế hoạch sau khi ban quản trị chấp thuận tài khoản nhà cung cấp của bạn"
+
+msgctxt "Languages::vendor_plans.current_plan"
+msgid "Current plan"
+msgstr "Gói hiện thời"
+
+msgctxt "Languages::vendor_plans.current_plan_usage"
+msgid "Current plan usage"
+msgstr "Gói sử dụng hiện tại"
+
+msgctxt "Languages::vendor_plans.best_choice"
+msgid "Best choice"
+msgstr "Lựa chọn tốt nhất"
+
+msgctxt "Languages::vendor_plans.choose_your_plan"
+msgid "Choose your plan"
+msgstr "Chọn kế hoạch của bạn"
+
+msgctxt "Languages::vendor_plans.choose"
+msgid "Choose"
+msgstr "Chọn"
+
+msgctxt "Languages::vendor_plans.month"
+msgid "Month"
+msgstr "Tháng"
+
+msgctxt "Languages::vendor_plans.year"
+msgid "Year"
+msgstr "Năm"
+
+msgctxt "Languages::vendor_plans.plan_name"
+msgid "Plan name"
+msgstr "Tên kế hoạch"
+
+msgctxt "Languages::vendor_plans.products_limit_value"
+msgid "<strong>[products]</strong> products"
+msgstr "sản phẩm <strong>[products]</strong>"
+
+msgctxt "Languages::vendor_plans.unlimited"
+msgid "Unlimited"
+msgstr "Không giới hạn"
+
+msgctxt "Languages::vendor_plans.products_limit_unlimited"
+msgid "<strong>Unlimited</strong> products"
+msgstr "<strong>Không giới hạn</strong> sản phẩm"
+
+msgctxt "Languages::vendor_plans.revenue_up_to_value"
+msgid "Revenue up to <strong>[revenue]</strong>"
+msgstr "Doanh thu lên đến <strong>[revenue]</strong>"
+
+msgctxt "Languages::vendor_plans.revenue_up_to_unlimited"
+msgid "<strong>Unlimited</strong> revenue"
+msgstr "<strong>Không giới hạn</strong> doanh thu"
+
+msgctxt "Languages::vendor_plans.transaction_fee_value"
+msgid "Transaction fee: <strong>[value]</strong>"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.vendor_commission"
+msgid "Vendor commission"
+msgstr "Hoa hồng nhà cung cấp"
+
+msgctxt "Languages::vendor_plans.category_is_empty"
+msgid "Please specify a category."
+msgstr "Hãy chỉ ra một danh mục."
+
+msgctxt "Languages::vendor_plans.vendor_approved_text"
+msgid "Your plan has been set to [plan]. See the details of your plan below."
+msgstr "Kế hoạch của bạn đã được thiết lập [plan]. Xem thông tin chi tiết của kế hoạch của bạn dưới đây."
+
+msgctxt "Languages::vendor_plans.plan_payment"
+msgid "Payment for Your Plan"
+msgstr "Thanh toán cho các kế hoạch của bạn"
+
+msgctxt "Languages::vendor_plans.plan_payment_text"
+msgid "A sum of [price] has been withdrawn from your account for using the [plan] plan. Follow the link to <a href=\"[href]\">view your account balance</a> or see the details of your plan below."
+msgstr "Một tổng hợp của [price] đã được rút từ tài khoản của bạn cho sử dụng kế hoạch [plan]. Theo liên kết để <a href=\"[href]\"> xem số dư tài khoản</a> hoặc xem thông tin chi tiết của kế hoạch của bạn dưới đây."
+
+msgctxt "Languages::vendor_plans.plan_has_been_changed"
+msgid "Your Plan Has Been Changed"
+msgstr "Kế hoạch của bạn đã bị thay đổi"
+
+msgctxt "Languages::vendor_plans.plan_has_been_changed_text"
+msgid "Your plan has been changed to [plan]. See the details of your new plan below."
+msgstr "Kế hoạch của bạn đã được thiết lập [plan]. Xem thông tin chi tiết của kế hoạch của bạn dưới đây."
+
+msgctxt "Languages::vendor_plans.products_exceeded_text"
+msgid "Cannot add more products: you have reached the maximum number of products allowed by your plan. To change your plan, please <a href=\"[href]\">follow this link</a>."
+msgstr "Không thể thêm nhiều sản phẩm hơn: bạn đã đạt đến số tối đa của sản phẩm này được cho phép bởi kế hoạch của bạn. Để thay đổi kế hoạch của bạn, xin vui lòng <a href=\"[href]\"> thực hiện theo liên kết này</a>."
+
+msgctxt "Languages::vendor_plans.revenue_exceeded_subj"
+msgid "Maximum Revenue Exceeded"
+msgstr "Tối đa doanh thu vượt quá"
+
+msgctxt "Languages::vendor_plans.revenue_exceeded_text"
+msgid "<a href=\"[href]\">[vendor]</a> exceeded the maximum revenue allowed by the [plan] plan."
+msgstr "<a href=\"[href]\">[vendor]</a> vượt quá thu nhập tối đa được cho phép bởi các kế hoạch [plan]."
+
+msgctxt "Languages::vendor_plans.not_available"
+msgid "Not available"
+msgstr "Không có sẵn"
+
+msgctxt "Languages::vendor_plans.many_products_text"
+msgid "Too many products ([actual]/[allowed])"
+msgstr "Quá nhiều sản phẩm ([actual]/[allowed])"
+
+msgctxt "Languages::vendor_plans.much_revenue_text"
+msgid "Too much revenue ([actual]/[allowed])"
+msgstr "Quá nhiều sản phẩm ([actual]/[allowed])"
+
+msgctxt "Languages::vendor_plans.plan_not_available_text"
+msgid "Sorry, this plan is not available for you. Please choose an available plan."
+msgstr "Xin lỗi, kế hoạch này không phải là có sẵn cho bạn. Vui lòng chọn một kế hoạch sẵn."
+
+msgctxt "Languages::vendor_plans.plan_will_be_change_text"
+msgid "You are switching to another vendor plan. You will be charged the full price of the plan. Are you sure you want to continue?"
+msgstr "Bạn đang chuyển sang một nhà cung cấp kế hoạch. Bạn sẽ phải trả giá đầy đủ của kế hoạch. Bạn có chắc bạn muốn tiếp tục không?"
+
+msgctxt "Languages::email_template.vendor_plans_plan_changed"
+msgid "Vendor plans: plan changed notification"
+msgstr "Kế hoạch đại lý: lên kế hoạch thay đổi thông báo"
+
+msgctxt "Languages::email_template.vendor_plans_payment"
+msgid "Vendor plans: payment notification"
+msgstr "Gói đại lý: thông báo thanh toán"
+
+msgctxt "Languages::email_template.vendor_plans_revenue"
+msgid "Vendor plans: revenue notification"
+msgstr "Kế hoạch đại lý: thông báo thu nhập"
+
+msgctxt "Languages::privileges.view_vendor_plans"
+msgid "Can view"
+msgstr ""
+
+msgctxt "Languages::privileges.manage_vendor_plans"
+msgid "Can edit"
+msgstr ""
+
+msgctxt "Languages::privilege_groups.vendor_plans"
+msgid "Vendor plans"
+msgstr ""
+
+msgctxt "Languages::addons.vendor_plans.commission_description_absolute"
+msgid "[amount] out of [sum]"
+msgstr "[amount] trên [sum]"
+
+msgctxt "Languages::vendor_plans.out_of_amount"
+msgid "out of [amount]"
+msgstr ""
+
+msgctxt "Languages::addons.vendor_plans.commission_description_percent"
+msgid "[amount]% of [sum]"
+msgstr "[amount]% của [sum]"
+
+msgctxt "Languages::addons.vendor_plans.payout_for_the_plan"
+msgid "Payout for the vendor plan: [plan]"
+msgstr "Thanh toán cho kế hoạch nhà cung cấp: [plan]"
+
+msgctxt "Languages::vendor_plan"
+msgid "Vendor plan"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.upgrade_notification_title"
+msgid "Setting removed from the Vendor Plans add-on"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.upgrade_notification_text"
+msgid "<p>Previously, the <b>Vendor Plans</b> add-on had a setting called <b>Take payment surcharge from vendors</b>. It removed payment surcharge from order total, so that customers wouldn't have to pay it. Instead, the payment surcharge was deducted from the order total in favor of the marketplace. This setting has been removed: if you'd like to take money from vendors per order, please specify commissions for the corresponding vendor plans.</p>"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_plan.title"
+msgid "Storefronts available in the vendor plan got changed"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_plan.general_message"
+msgid "What should we do about <a href=\"[search_url]\" target=\"_blank\">[n] vendor </a> who is using this plan now?|What should we do about <a href=\"[search_url]\" target=\"_blank\">[n] vendors </a> who are using this plan now?"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_plan.add_storefronts_message"
+msgid "Add the vendor to the storefronts that got added to the plan|Add the vendors to the storefronts that got added to the plan"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_plan.remove_storefronts_message"
+msgid "Remove the vendor from the storefronts that got removed from this plan|Remove the vendors from the storefronts that got removed from this plan"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_vendor.title"
+msgid "The vendor got moved to another plan"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_vendor.general_message"
+msgid "What should we do about the storefronts that are available to this vendor?"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_vendor.add_storefronts_message"
+msgid "Add the vendor to the storefronts available in the new vendor plan"
+msgstr ""
+
+msgctxt "Languages::vendor_plans.storefronts_update_for_vendor.remove_storefronts_message"
+msgid "Remove the vendor from the storefronts available in his previous plan"
+msgstr ""
+

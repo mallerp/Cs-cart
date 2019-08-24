@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.10.3/addons/paypal_for_marketplaces.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:06\n"
+
+msgctxt "Addons::name::paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal για Marketplaces"
+
+msgctxt "Addons::description::paypal_for_marketplaces"
+msgid "This add-on will help root store administrators to distribute funds automatically among multiple vendors through PayPal."
+msgstr "Το πρόσθετο θα σβοηθήσει το βασικο διαχειριστή του καταστηματος να διανέμει κεφάλαια αυτόματα μεταξύ των πολλαπλών πωλητών μέσω του PayPal."
+
+msgctxt "SettingsSections::paypal_for_marketplaces::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::paypal_for_marketplaces::collect_payouts"
+msgid "Commission includes"
+msgstr "Η Προμήθεια  περιλαμβάνει"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::N"
+msgid "Order commission"
+msgstr "Προμήθεια παραγγελίας"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::Y"
+msgid "Order commission and unpaid payouts"
+msgstr "Προμήθεια παραγγελίας και μη καταβλημένες πληρωμές"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal για Marketplaces"
+
+msgctxt "Languages::paypal_for_marketplaces.bn_code"
+msgid "Partner integration code"
+msgstr "Ενσωματωση Κωδικα συνεργάτη"
+
+msgctxt "Languages::paypal_for_marketplaces.payer_id"
+msgid "Merchant account ID"
+msgstr "Merchant account ID"
+
+msgctxt "Languages::paypal_for_marketplaces.client_id"
+msgid "Client ID"
+msgstr "Αναγνωριστικό πελάτη"
+
+msgctxt "Languages::paypal_for_marketplaces.secret"
+msgid "Secret"
+msgstr "Μυστικό"
+
+msgctxt "Languages::paypal_for_marketplaces.connect_with_paypal"
+msgid "Connect with PayPal"
+msgstr "Σύνδεση με PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.disconnect"
+msgid "Disconnect account"
+msgstr "Αποσυνδέστε το λογαριασμό"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_account"
+msgid "PayPal account"
+msgstr "PayPal λογαριασμός"
+
+msgctxt "Languages::paypal_for_marketplaces.connected"
+msgid "Connected"
+msgstr "Συνδέθηκε"
+
+msgctxt "Languages::paypal_for_marketplaces.not_connected"
+msgid "Not connected"
+msgstr "Δεν είναι συνδεδεμένο"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connected"
+msgid "Your PayPal account has been successfully connected to the store"
+msgstr "Ο PayPal Λογαριασμός σας  έχει συνδεθεί με επιτυχία με το κατάστημα"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connection_failure"
+msgid "Unable to connect your PayPal account to the store"
+msgstr "Δεν ειναι δυνατον να συνδέσετε το λογαριασμό σας PayPal στο κατάστημα"
+
+msgctxt "Languages::paypal_for_marketplaces.account_disconnected"
+msgid "Your PayPal account has been successfully disconnected from the store"
+msgstr "Ο PayPal Λογαριασμός σας  έχει αποσυνδεθεί με επιτυχία απο το κατάστημα"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Ανάληψη για την παραγγελία #[order_id]"
+
+msgctxt "Languages::paypal_for_marketplaces.refund_id"
+msgid "Refund transaction ID"
+msgstr "ID Συναλλαγής Επιστροφής"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal"
+msgid "Withdrawal amount"
+msgstr "Ποσό αναληψης"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.perform_refund"
+msgid "Give a refund via PayPal for Marketplaces"
+msgstr "Δώσει μια επιστροφή μέσω PayPal για Marketplaces"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "Θα γίνει επιστροφή χρημάτων εφοσον ο διαχειριστής αλλάξει την κατάσταση αιτηματος επιστροφής"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.refund_performed"
+msgid "The refund has been made via PayPal for Marketplaces"
+msgstr "Η επιστροφή έχει γίνει μέσω PayPal για Marketplaces"
+
+msgctxt "Languages::paypal_for_marketplaces.order_id"
+msgid "Order ID in PayPal"
+msgstr "Αναγνωριστικό παραγγελίας στο PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "Capture ID στο PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_id"
+msgid "Payout ID in PayPal"
+msgstr "Payout ID στο PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_failure_reason"
+msgid "Payout failure reason"
+msgstr "Αιτία αποτυχίας πληρωμής"
+
+msgctxt "Languages::paypal_for_marketplaces.own_account_cant_be_used_for_vendor"
+msgid "Your own PayPal account can't be used to connect a vendor to the store"
+msgstr "Ο δικος σας λογαριασμό PayPal δεν μπορεί να χρησιμοποιηθεί για να συνδέσετε έναν πωλητή στο κατάστημα"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Order status on refund"
+msgstr "Κατάσταση παραγγελίας επιστροφής χρημάτων"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Determines whether or not to change the order status after a refund was performed via the RMA add-on."
+msgstr "Καθορίζει αν πρέπει ή όχι να αλλάξετε την κατάσταση της παραγγελίας, μετά απο επιστροφή που πραγματοποιήθηκε μέσω του πρόσθετου RMA."
+
+msgctxt "Languages::paypal_for_marketplaces.do_not_change"
+msgid "Do not change"
+msgstr "Μην αλλάξετε"
+
+msgctxt "Languages::paypal_for_marketplaces.set_status_to"
+msgid "Set to:"
+msgstr "Ορισμός σε:"
+
+msgctxt "Languages::paypal_for_marketplaces.webhook_notice"
+msgid "Specify the following URL when configuring a webhook for your REST application: <code>[url]</code>"
+msgstr "Οριστε το παρακατω URL oταν ρυθμίζετε τις παραμέτρους ενός webhook για τo REST application:  <code>[url]</cod[url]</code>"
+
+msgctxt "Languages::paypal_for_marketplaces.payment_notification"
+msgid "PayPal for Marketplaces payment notification: [payload]"
+msgstr "κοινοποίηση πληρωμής PayPal για Marketplaces: [payload]"
+
+msgctxt "Languages::paypal_for_marketplaces.settings.account"
+msgid "Account settings"
+msgstr "Ρυθμίσεις λογαριασμού"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.funding"
+msgid "Alternative funding sources"
+msgstr "Εναλλακτικές πηγές χρηματοδότησης"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.style"
+msgid "Button appearance"
+msgstr "εμφάνιση Κουμπιου"
+
+msgctxt "Languages::paypal_for_marketplaces.source.card"
+msgid "Allow buyers to pay with their credit or debit card"
+msgstr "Επιτρέψτε στους αγοραστές να πληρώσουν με την πιστωτική ή χρεωστική κάρτα τους"
+
+msgctxt "Languages::paypal_for_marketplaces.source.elv"
+msgid "Allow German buyers to pay with their bank account using Elektronisches Lastschriftverfahren"
+msgstr "Επιτρέψτε σε Γερμανούς αγοραστές να πληρώσουν με τραπεζικό λογαριασμό χρησιμοποιώντας Elektronisches Lastschriftverfahren"
+
+msgctxt "Languages::paypal_for_marketplaces.source.credit"
+msgid "Allow buyers to pay with PayPal Credit"
+msgstr "Επιτρέπουν στους αγοραστές να πληρώσουν με PayPal πιστωτική"
+
+msgctxt "Languages::paypal_for_marketplaces.source.venmo"
+msgid "Allow buyers to pay with Venmo digital wallet"
+msgstr "Επιτρέψτε στους αγοραστές να πληρώσουν με Venmo ψηφιακό πορτοφόλι"
+
+msgctxt "Languages::paypal_for_marketplaces.style.shape"
+msgid "Shape"
+msgstr "Σχήμα"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.pill"
+msgid "Pill"
+msgstr "Χάπι"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Ορθογώνια"
+
+msgctxt "Languages::paypal_for_marketplaces.style.color"
+msgid "Color"
+msgstr "Χρώμα"
+
+msgctxt "Languages::paypal_for_marketplaces.color.gold"
+msgid "Gold"
+msgstr "Χρυσό"
+
+msgctxt "Languages::paypal_for_marketplaces.color.blue"
+msgid "Blue"
+msgstr "Μπλε"
+
+msgctxt "Languages::paypal_for_marketplaces.color.silver"
+msgid "Silver"
+msgstr "Ασήμι"
+
+msgctxt "Languages::paypal_for_marketplaces.color.black"
+msgid "Black"
+msgstr "Μαύρο"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Ορθογώνια"
+
+msgctxt "Languages::paypal_for_marketplaces.style.size"
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgctxt "Languages::paypal_for_marketplaces.size.small"
+msgid "Small (150&times;25px)"
+msgstr "Μικρό (150&times;25px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.medium"
+msgid "Medium (250&times;35px)"
+msgstr "Μεσαία (250&times;35px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.large"
+msgid "Large (350&times;40px)"
+msgstr "Μεγάλο (350&times;40px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.responsive"
+msgid "Responsive"
+msgstr "Responsive"
+

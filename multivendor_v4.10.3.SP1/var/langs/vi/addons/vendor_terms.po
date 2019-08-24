@@ -1,0 +1,38 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Vietnamese\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: vi\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_terms.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:24\n"
+
+msgctxt "Addons::name::vendor_terms"
+msgid "Vendor's terms and conditions"
+msgstr "Điều khoản và điều kiện của nhà cung cấp"
+
+msgctxt "Addons::description::vendor_terms"
+msgid "Allows vendors to specify terms and conditions that the customers must agree with when buying from those vendors"
+msgstr "Cho phép các nhà cung cấp để xác định các điều khoản và điều kiện khách hàng phải đồng ý với khi mua từ những nhà cung cấp"
+
+msgctxt "Languages::vendor_terms.terms_and_conditions"
+msgid "Terms & conditions"
+msgstr "Điều khoản và điều kiện"
+
+msgctxt "Languages::vendor_terms.terms_and_conditions_tooltip"
+msgid "If you want a customer to agree to your terms and conditions at checkout, fill in Terms & Conditions. If you leave Terms & Conditions empty, a customer proceeds without agreement."
+msgstr "Nếu bạn muốn khách hàng đồng ý với điều khoản và điều kiện của bạn lúc thanh toán, hãy điền vào điều khoản & điều kiện. Nếu bạn để điều khoản điều kiện trống, khách hàng sẽ tiến hành mà không có thỏa thuận."
+
+msgctxt "Languages::vendor_terms.checkout_terms_and_conditions"
+msgid "I accept the [terms_href] of [vendor]"
+msgstr "Tôi chấp nhận [terms_href] [vendor]"
+
+msgctxt "Languages::vendor_terms.checkout_terms_and_conditions_name"
+msgid "Terms & conditions"
+msgstr "Điều khoản và điều kiện"
+

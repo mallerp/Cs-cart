@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_debt_payout.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:01\n"
+
+msgctxt "Addons::name::vendor_debt_payout"
+msgid "Vendor debt payout"
+msgstr "Pago de deuda a vendedores"
+
+msgctxt "Addons::description::vendor_debt_payout"
+msgid "Restricts the functionality of vendors' admin panels under certain conditions and enables your vendors to pay their fees and debts from their admin panel dashboards. It is as easy as purchasing a product from the storefront."
+msgstr "Restringe la funcionalidad de los paneles de administración de los proveedores bajo ciertas condiciones y les permite a sus proveedores pagar sus tarifas y deudas desde sus tableros de panel de administración. Es tan fácil como comprar un producto de la tienda."
+
+msgctxt "Languages::vendor_debt_payout.debt_payout"
+msgid "Marketplace fees"
+msgstr "Tarifas de las empresas"
+
+msgctxt "Languages::vendor_debt_payout.debt_payout_w_order"
+msgid "Marketplace fees (order #[id])"
+msgstr "Tarifas de las empresas (Pedido #[id])"
+
+msgctxt "Languages::vendor_debt_payout.pay_fees"
+msgid "Pay the fees"
+msgstr "Pagar las tarifas asignadas"
+
+msgctxt "Languages::vendor_debt_payout.vendor_debt_limit"
+msgid "Restrict admin panel functions if vendor's debt reaches"
+msgstr "Restringe las funciones del panel de administración si la deuda del proveedor llega"
+
+msgctxt "Languages::ttc_vendor_debt_payout.vendor_debt_limit"
+msgid "When a vendor's balance is negative and reaches this number, the vendor's administration panel will not allow to perform any actions. When a vendor's negative balance is half this number, the vendor will see the warning specified in the \"vendor_debt_payout.debt_near_limit_message\" language variable."
+msgstr "Cuando el saldo de un proveedor es negativo y alcanza este número, el panel de administración del proveedor no permitirá realizar ninguna acción. Cuando el saldo negativo de un proveedor es la mitad de este número, el proveedor verá la advertencia especificada en la variable de idioma \"vendor_debt_payout.debt_near_limit_message\"."
+
+msgctxt "Languages::vendor_debt_payout.payout_overdue_limit"
+msgid "Grace period for vendor plan fees"
+msgstr "Plan para el pago de tarifas al vendedor durante el período de gracia"
+
+msgctxt "Languages::ttc_vendor_debt_payout.payout_overdue_limit"
+msgid "Payments for plans are drawn from the vendor's account balance. If the balance gets negative after the fee is taken, and this period expires, the vendor's administration panel will not allow to perform any actions until the vendor pays the debt."
+msgstr "Los pagos de los planes se obtienen del saldo de la cuenta del proveedor. Si el saldo se vuelve negativo después de que se aplica la tarifa, y este período expira, el panel de administración del vendedor no permitirá realizar ninguna acción hasta que el vendedor pague la deuda."
+
+msgctxt "Languages::vendor_debt_payout.day_or_days"
+msgid "day(s)"
+msgstr "día(s)"
+
+msgctxt "Languages::vendor_debt_payout.pending_payout_message"
+msgid "You need to pay the fee of [fee_amount] for using the [plan_name] plan. Your current account balance is [current_balance]. If the fee isn't paid until [overdue_date], you won't be able to work with the administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Debe pagar la tarifa de [fee_amount] por usar el plan [plan_name]. El saldo de su cuenta actual es [current_balance]. Si la tarifa no se paga hasta el [overdue_date], no podrá trabajar con el panel de administración hasta que <a href=\"[pay_url]\" target=\"_blank\"> pague todas las tarifas de su empresa </a>."
+
+msgctxt "Languages::vendor_debt_payout.debt_near_limit_message"
+msgid "Your account balance is currently [current_balance]. If it reaches [minimal_balance], you won't be able to use your administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "El saldo de su cuenta es actualmente [current_balance]. Si alcanza [minimal_balance], no podrá usar su panel de administración hasta que <a href=\"[pay_url]\" target=\"_blank\"> pague todas las tarifas de su mercado </a>."
+
+msgctxt "Languages::vendor_debt_payout.block_alert"
+msgid "<p>Your access to the administration panel has been restricted automatically because you have reached the limit of negative account balance or haven't paid a fee for your vendor plan in time.</p><p>Your current account balance is [current_balance].</p><p>Please <a href=\"[pay_url]\">pay the marketplace fees</a> — once the payment is processed, your access to the administration panel will be restored automatically.</p>"
+msgstr "<p> Su acceso al panel de administración se ha restringido automáticamente porque usted ha alcanzado el límite del saldo negativo de la cuenta o no ha pagado una tarifa por su plan de proveedor a tiempo.</p><p> El saldo de su cuenta actual es [current_balance].</p><p>Por favor <a href=\"[pay_url]\"> pague las tarifas del mercado </a> — una vez que se procese el pago, su acceso al panel de administración se restaurará automáticamente.</p>"
+

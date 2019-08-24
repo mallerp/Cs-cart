@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /release-4.10.3/addons/paypal_for_marketplaces.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:16\n"
+
+msgctxt "Addons::name::paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal for Marketplaces"
+
+msgctxt "Addons::description::paypal_for_marketplaces"
+msgid "This add-on will help root store administrators to distribute funds automatically among multiple vendors through PayPal."
+msgstr "Автоматическое распределение денежных средств между продавцами через PayPal."
+
+msgctxt "SettingsSections::paypal_for_marketplaces::general"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "SettingsOptions::paypal_for_marketplaces::collect_payouts"
+msgid "Commission includes"
+msgstr "Комиссия включает"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::N"
+msgid "Order commission"
+msgstr "Комиссия с заказа"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::Y"
+msgid "Order commission and unpaid payouts"
+msgstr "Комиссия с заказа и невыплаченные выплаты"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal for Marketplaces"
+
+msgctxt "Languages::paypal_for_marketplaces.bn_code"
+msgid "Partner integration code"
+msgstr "Код интеграции партнёра"
+
+msgctxt "Languages::paypal_for_marketplaces.payer_id"
+msgid "Merchant account ID"
+msgstr "ID учётной записи продавца"
+
+msgctxt "Languages::paypal_for_marketplaces.client_id"
+msgid "Client ID"
+msgstr "Идентификатор клиента"
+
+msgctxt "Languages::paypal_for_marketplaces.secret"
+msgid "Secret"
+msgstr "Secret (Секрет)"
+
+msgctxt "Languages::paypal_for_marketplaces.connect_with_paypal"
+msgid "Connect with PayPal"
+msgstr "Подключиться через PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.disconnect"
+msgid "Disconnect account"
+msgstr "Отключить учётную запись"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_account"
+msgid "PayPal account"
+msgstr "Учётная запись PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.connected"
+msgid "Connected"
+msgstr "Подключен"
+
+msgctxt "Languages::paypal_for_marketplaces.not_connected"
+msgid "Not connected"
+msgstr "Не подключена"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connected"
+msgid "Your PayPal account has been successfully connected to the store"
+msgstr "Ваша учётная запись PayPal успешно подключена к магазину"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connection_failure"
+msgid "Unable to connect your PayPal account to the store"
+msgstr "Не удаётся подключить вашу учётную запись PayPal к магазину"
+
+msgctxt "Languages::paypal_for_marketplaces.account_disconnected"
+msgid "Your PayPal account has been successfully disconnected from the store"
+msgstr "Ваша учётная запись PayPal успешно отключена от магазина"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Выплата за заказ #[order_id]"
+
+msgctxt "Languages::paypal_for_marketplaces.refund_id"
+msgid "Refund transaction ID"
+msgstr "ID транзакции возврата"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal"
+msgid "Withdrawal amount"
+msgstr "Сумма выводимых средств"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.perform_refund"
+msgid "Give a refund via PayPal for Marketplaces"
+msgstr "Сделать возврат через PayPal for Marketplaces"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "Возврат средств будет сделан сразу после того, как администратор изменит статус запроса"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.refund_performed"
+msgid "The refund has been made via PayPal for Marketplaces"
+msgstr "Сделан возврат через PayPal for Marketplaces"
+
+msgctxt "Languages::paypal_for_marketplaces.order_id"
+msgid "Order ID in PayPal"
+msgstr "ID заказа в PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "ID захвата в PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_id"
+msgid "Payout ID in PayPal"
+msgstr "ID выплаты в PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_failure_reason"
+msgid "Payout failure reason"
+msgstr "Причина сбоя выплаты"
+
+msgctxt "Languages::paypal_for_marketplaces.own_account_cant_be_used_for_vendor"
+msgid "Your own PayPal account can't be used to connect a vendor to the store"
+msgstr "Нельзя использовать собственную учётную запись PayPal для подключения продавца к магазину"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Order status on refund"
+msgstr "Статус заказа после возврата"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Determines whether or not to change the order status after a refund was performed via the RMA add-on."
+msgstr "Определяет, изменять ли статус заказа после того, как будет выполнен возврат через модуль \"Возврат товаров\"."
+
+msgctxt "Languages::paypal_for_marketplaces.do_not_change"
+msgid "Do not change"
+msgstr "Оставить без изменений"
+
+msgctxt "Languages::paypal_for_marketplaces.set_status_to"
+msgid "Set to:"
+msgstr "Выбрать статус:"
+
+msgctxt "Languages::paypal_for_marketplaces.webhook_notice"
+msgid "Specify the following URL when configuring a webhook for your REST application: <code>[url]</code>"
+msgstr "Укажите следующий URL при настройке веб-хука для своего REST-приложения: <code>[url]</code>"
+
+msgctxt "Languages::paypal_for_marketplaces.payment_notification"
+msgid "PayPal for Marketplaces payment notification: [payload]"
+msgstr "Уведомление об оплате от PayPal for Marketplaces: [payload]"
+
+msgctxt "Languages::paypal_for_marketplaces.settings.account"
+msgid "Account settings"
+msgstr "Настройки учетной записи"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.funding"
+msgid "Alternative funding sources"
+msgstr "Дополнительные возможности оплаты"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.style"
+msgid "Button appearance"
+msgstr "Внешний вид кнопки"
+
+msgctxt "Languages::paypal_for_marketplaces.source.card"
+msgid "Allow buyers to pay with their credit or debit card"
+msgstr "Разрешить покупателям оплату кредитными и дебетовыми картами"
+
+msgctxt "Languages::paypal_for_marketplaces.source.elv"
+msgid "Allow German buyers to pay with their bank account using Elektronisches Lastschriftverfahren"
+msgstr "Разрешить покупателям из Германии оплату с банковских счетов через Elektronisches Lastschriftverfahren"
+
+msgctxt "Languages::paypal_for_marketplaces.source.credit"
+msgid "Allow buyers to pay with PayPal Credit"
+msgstr "Разрешить покупателям оплату через PayPal Credit"
+
+msgctxt "Languages::paypal_for_marketplaces.source.venmo"
+msgid "Allow buyers to pay with Venmo digital wallet"
+msgstr "Разрешить покупателям оплату электронным кошельком Venmo"
+
+msgctxt "Languages::paypal_for_marketplaces.style.shape"
+msgid "Shape"
+msgstr "Форма"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.pill"
+msgid "Pill"
+msgstr "Без углов"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Прямоугольник"
+
+msgctxt "Languages::paypal_for_marketplaces.style.color"
+msgid "Color"
+msgstr "Цвет"
+
+msgctxt "Languages::paypal_for_marketplaces.color.gold"
+msgid "Gold"
+msgstr "Золотой"
+
+msgctxt "Languages::paypal_for_marketplaces.color.blue"
+msgid "Blue"
+msgstr "Синий"
+
+msgctxt "Languages::paypal_for_marketplaces.color.silver"
+msgid "Silver"
+msgstr "Серебристый"
+
+msgctxt "Languages::paypal_for_marketplaces.color.black"
+msgid "Black"
+msgstr "Чёрный"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Прямоугольник"
+
+msgctxt "Languages::paypal_for_marketplaces.style.size"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "Languages::paypal_for_marketplaces.size.small"
+msgid "Small (150&times;25px)"
+msgstr "Маленький (150&times;25px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.medium"
+msgid "Medium (250&times;35px)"
+msgstr "Средний (250&times;35px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.large"
+msgid "Large (350&times;40px)"
+msgstr "Большой (350&times;40px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.responsive"
+msgid "Responsive"
+msgstr "Адаптивный"
+

@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: es-ES\n"
+"X-Crowdin-File: /release-4.10.3/addons/paypal_for_marketplaces.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:01\n"
+
+msgctxt "Addons::name::paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "Paypal para Empresas"
+
+msgctxt "Addons::description::paypal_for_marketplaces"
+msgid "This add-on will help root store administrators to distribute funds automatically among multiple vendors through PayPal."
+msgstr "Este complemento ayudará al administrador con privilegios de la tienda a distribuir los fondos automáticamente entre los vendedores múltiples a través de PayPal."
+
+msgctxt "SettingsSections::paypal_for_marketplaces::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::paypal_for_marketplaces::collect_payouts"
+msgid "Commission includes"
+msgstr "La comisión incluye"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::N"
+msgid "Order commission"
+msgstr "Comisión del pedido"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::Y"
+msgid "Order commission and unpaid payouts"
+msgstr "Comisión del pedido y compras sin cancelar"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal para Empresas"
+
+msgctxt "Languages::paypal_for_marketplaces.bn_code"
+msgid "Partner integration code"
+msgstr "Código de integracoón del socio"
+
+msgctxt "Languages::paypal_for_marketplaces.payer_id"
+msgid "Merchant account ID"
+msgstr "Identificación de la cuenta del vendedor"
+
+msgctxt "Languages::paypal_for_marketplaces.client_id"
+msgid "Client ID"
+msgstr "Identificación del usuario"
+
+msgctxt "Languages::paypal_for_marketplaces.secret"
+msgid "Secret"
+msgstr "Pregunta secreta"
+
+msgctxt "Languages::paypal_for_marketplaces.connect_with_paypal"
+msgid "Connect with PayPal"
+msgstr "Conecta a PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.disconnect"
+msgid "Disconnect account"
+msgstr "Deshabilitar cuenta"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_account"
+msgid "PayPal account"
+msgstr "Cuenta de PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.connected"
+msgid "Connected"
+msgstr "Conectado"
+
+msgctxt "Languages::paypal_for_marketplaces.not_connected"
+msgid "Not connected"
+msgstr "Sin conexión"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connected"
+msgid "Your PayPal account has been successfully connected to the store"
+msgstr "Su cuenta PayPal ha sido conectada a la tienda con éxito"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connection_failure"
+msgid "Unable to connect your PayPal account to the store"
+msgstr "No se puede conectar tu cuenta de PayPal a la tienda"
+
+msgctxt "Languages::paypal_for_marketplaces.account_disconnected"
+msgid "Your PayPal account has been successfully disconnected from the store"
+msgstr "Tu cuenta de PayPal ha sido desconectada de la tienda con éxito"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Retiro del pedido #[order_id]"
+
+msgctxt "Languages::paypal_for_marketplaces.refund_id"
+msgid "Refund transaction ID"
+msgstr "Identificación del reembolso de la transacción"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal"
+msgid "Withdrawal amount"
+msgstr "Cantidad retirada"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.perform_refund"
+msgid "Give a refund via PayPal for Marketplaces"
+msgstr "Hace un reembolso a las empresas a través de PayPal"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "Un reembolso será realizado una vez que el administrador cambie el estado de la solicitud de devolución"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.refund_performed"
+msgid "The refund has been made via PayPal for Marketplaces"
+msgstr "El reembolso ha sido realizado a las empresas a través de PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.order_id"
+msgid "Order ID in PayPal"
+msgstr "Identificación del pedido en PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "Identificación verificada en PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_id"
+msgid "Payout ID in PayPal"
+msgstr "Identificación del pago en PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_failure_reason"
+msgid "Payout failure reason"
+msgstr "Razón por la que su pago no se ha realizado"
+
+msgctxt "Languages::paypal_for_marketplaces.own_account_cant_be_used_for_vendor"
+msgid "Your own PayPal account can't be used to connect a vendor to the store"
+msgstr "Su cuenta de PayPal no puede ser utilizada para conectarse a un vendedor de la tienda"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Order status on refund"
+msgstr "El estado de la solicitud de reembolso"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Determines whether or not to change the order status after a refund was performed via the RMA add-on."
+msgstr "Determina si el estado de la solicitud cambia o no después que un reembolso ha sido ejecutado a través del complemento de RMA."
+
+msgctxt "Languages::paypal_for_marketplaces.do_not_change"
+msgid "Do not change"
+msgstr "No cambiar"
+
+msgctxt "Languages::paypal_for_marketplaces.set_status_to"
+msgid "Set to:"
+msgstr "Ajustado a:"
+
+msgctxt "Languages::paypal_for_marketplaces.webhook_notice"
+msgid "Specify the following URL when configuring a webhook for your REST application: <code>[url]</code>"
+msgstr "Especifica la siguiente URL cuando se configura una modificación del programa o aplicación para restablecer tu aplicación: <code>[url]</code>"
+
+msgctxt "Languages::paypal_for_marketplaces.payment_notification"
+msgid "PayPal for Marketplaces payment notification: [payload]"
+msgstr "Notificación del pago de PayPal para Empresas:[payload]"
+
+msgctxt "Languages::paypal_for_marketplaces.settings.account"
+msgid "Account settings"
+msgstr "Configuración de la cuenta"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.funding"
+msgid "Alternative funding sources"
+msgstr "Fuentes alternativas de financiamiento"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.style"
+msgid "Button appearance"
+msgstr "Apariencia del botón"
+
+msgctxt "Languages::paypal_for_marketplaces.source.card"
+msgid "Allow buyers to pay with their credit or debit card"
+msgstr "Permite a los compradores comprar con tarjeta de crédito o débito"
+
+msgctxt "Languages::paypal_for_marketplaces.source.elv"
+msgid "Allow German buyers to pay with their bank account using Elektronisches Lastschriftverfahren"
+msgstr "Permite a los compradores Alemanes pagar con sus cuentas bancarias utilizando Elektronisches Lastschriftverfahren"
+
+msgctxt "Languages::paypal_for_marketplaces.source.credit"
+msgid "Allow buyers to pay with PayPal Credit"
+msgstr "Permite a los compradores pagar con Crédito de PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.source.venmo"
+msgid "Allow buyers to pay with Venmo digital wallet"
+msgstr "Permite a los compradores pagar con el monedero digital Venmo"
+
+msgctxt "Languages::paypal_for_marketplaces.style.shape"
+msgid "Shape"
+msgstr "Forma"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.pill"
+msgid "Pill"
+msgstr "Píldora"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Rectangular"
+
+msgctxt "Languages::paypal_for_marketplaces.style.color"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "Languages::paypal_for_marketplaces.color.gold"
+msgid "Gold"
+msgstr "Oro"
+
+msgctxt "Languages::paypal_for_marketplaces.color.blue"
+msgid "Blue"
+msgstr "Azul"
+
+msgctxt "Languages::paypal_for_marketplaces.color.silver"
+msgid "Silver"
+msgstr "Plata"
+
+msgctxt "Languages::paypal_for_marketplaces.color.black"
+msgid "Black"
+msgstr "Negro"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Rectangular"
+
+msgctxt "Languages::paypal_for_marketplaces.style.size"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "Languages::paypal_for_marketplaces.size.small"
+msgid "Small (150&times;25px)"
+msgstr "Pequeño (150&times;25px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.medium"
+msgid "Medium (250&times;35px)"
+msgstr "Mediano (250&times;35px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.large"
+msgid "Large (350&times;40px)"
+msgstr "Largo (350&times;40px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.responsive"
+msgid "Responsive"
+msgstr "Adaptativo"
+

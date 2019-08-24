@@ -1,0 +1,101 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::master_products"
+msgid "Common Products for Vendors [Beta]"
+msgstr "Common Products for Vendors [Beta]"
+
+msgctxt "Addons::description::master_products"
+msgid "Allows you to create a single product base: vendors choose which of the existing products they sell."
+msgstr "Allows you to create a single product base: vendors choose which of the existing products they sell."
+
+msgctxt "SettingsSections::master_products::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::master_products::allow_vendors_to_create_products"
+msgid "Allow vendors to create products"
+msgstr "Allow vendors to create products"
+
+msgctxt "SettingsTooltips::master_products::allow_vendors_to_create_products"
+msgid "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+msgstr "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+
+msgctxt "Languages::master_products.vendor_products_tab_name"
+msgid "Sellers of this product"
+msgstr "Sellers of this product"
+
+msgctxt "Languages::master_products.vendor_products_filling"
+msgid "Sellers of this product"
+msgstr "Sellers of this product"
+
+msgctxt "Languages::master_products.vendor_products_block_name"
+msgid "Sellers of a product"
+msgstr "Sellers of a product"
+
+msgctxt "Languages::master_products.products_that_vendors_can_sell"
+msgid "Products that vendors can sell"
+msgstr "Products that vendors can sell"
+
+msgctxt "Languages::master_products.products_being_sold"
+msgid "Products being sold"
+msgstr "Products being sold"
+
+msgctxt "Languages::master_products.all_products"
+msgid "All products"
+msgstr "All products"
+
+msgctxt "Languages::master_products.add_product_from_catalog"
+msgid "Add product from catalog"
+msgstr "Add product from catalog"
+
+msgctxt "Languages::master_products.create_new_product"
+msgid "Create new product"
+msgstr "Create new product"
+
+msgctxt "Languages::master_products.sell_this"
+msgid "Sell this"
+msgstr "Sell this"
+
+msgctxt "Languages::master_products.for_sale"
+msgid "For sale"
+msgstr "For sale"
+
+msgctxt "Languages::master_products.sell_selected"
+msgid "Sell selected"
+msgstr "Sell selected"
+
+msgctxt "Languages::master_products.products_were_added_to_your_products"
+msgid "[n] product was added to your products|[n] products were added to your products"
+msgstr "[n] product was added to your products|[n] products were added to your products"
+
+msgctxt "Languages::master_products.master_product"
+msgid "Common product"
+msgstr "Common product"
+
+msgctxt "Languages::master_products.all_vendors_master_product"
+msgid "All vendors (common product)"
+msgstr "All vendors (common product)"
+
+msgctxt "Languages::master_products.exported_products"
+msgid "Products to export"
+msgstr "Products to export"
+
+msgctxt "Languages::master_products.price_from"
+msgid "From [formatted_price]"
+msgstr "From [formatted_price]"
+
+msgctxt "Languages::master_products.product_type.offer"
+msgid "Vendor offer"
+msgstr "Vendor offer"
+
+msgctxt "Languages::master_products.upgrade_notification.title"
+msgid "Common Products for Vendors: Add-on now works only with global options"
+msgstr "Common Products for Vendors: Add-on now works only with global options"
+
+msgctxt "Languages::master_products.upgrade_notification.message"
+msgid "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"
+msgstr "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"

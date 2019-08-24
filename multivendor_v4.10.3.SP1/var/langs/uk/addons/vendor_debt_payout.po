@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: uk\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_debt_payout.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:22\n"
+
+msgctxt "Addons::name::vendor_debt_payout"
+msgid "Vendor debt payout"
+msgstr "Виплата боргів продавців"
+
+msgctxt "Addons::description::vendor_debt_payout"
+msgid "Restricts the functionality of vendors' admin panels under certain conditions and enables your vendors to pay their fees and debts from their admin panel dashboards. It is as easy as purchasing a product from the storefront."
+msgstr "Обмежує функціональність панелей адміністрування продавців при певних умовах; дозволяє продавцям оплачувати підписку і платити борги безпосередньо з панелей адміністраторів. Процес оплати боргів не складніше покупки товару на вітрині."
+
+msgctxt "Languages::vendor_debt_payout.debt_payout"
+msgid "Marketplace fees"
+msgstr "Оплата заборгованості"
+
+msgctxt "Languages::vendor_debt_payout.debt_payout_w_order"
+msgid "Marketplace fees (order #[id])"
+msgstr "Оплата заборгованості (замовлення#[id])"
+
+msgctxt "Languages::vendor_debt_payout.pay_fees"
+msgid "Pay the fees"
+msgstr "Оплатити заборгованість"
+
+msgctxt "Languages::vendor_debt_payout.vendor_debt_limit"
+msgid "Restrict admin panel functions if vendor's debt reaches"
+msgstr "Обмежити функціональність панелі адміністратора, якщо борг продавця досягає"
+
+msgctxt "Languages::ttc_vendor_debt_payout.vendor_debt_limit"
+msgid "When a vendor's balance is negative and reaches this number, the vendor's administration panel will not allow to perform any actions. When a vendor's negative balance is half this number, the vendor will see the warning specified in the \"vendor_debt_payout.debt_near_limit_message\" language variable."
+msgstr "Коли негативний баланс продавця досягає цієї суми, панель адміністрування продавця не дозволить нічого зробити. Якщо борг продавця дорівнює половині цієї суми, то продавець побачить попередження; його текст береться з мовної змінної \"vendor_debt_payout.debt_near_limit_message\"."
+
+msgctxt "Languages::vendor_debt_payout.payout_overdue_limit"
+msgid "Grace period for vendor plan fees"
+msgstr "Відтермінування для оплати тарифного плану"
+
+msgctxt "Languages::ttc_vendor_debt_payout.payout_overdue_limit"
+msgid "Payments for plans are drawn from the vendor's account balance. If the balance gets negative after the fee is taken, and this period expires, the vendor's administration panel will not allow to perform any actions until the vendor pays the debt."
+msgstr "Оплата за тарифний план списується з балансу продавця. Якщо баланс став негативним після списання оплати, а цей період закінчився, то панель адміністратора продавця не дозволить виконувати ніякі дії, поки продавець не сплатить заборгованість."
+
+msgctxt "Languages::vendor_debt_payout.day_or_days"
+msgid "day(s)"
+msgstr "дн."
+
+msgctxt "Languages::vendor_debt_payout.pending_payout_message"
+msgid "You need to pay the fee of [fee_amount] for using the [plan_name] plan. Your current account balance is [current_balance]. If the fee isn't paid until [overdue_date], you won't be able to work with the administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Необхідно сплатити суму [fee_amount] за використання тарифного плану [plan_name]. Ваш поточний баланс становить [current_balance]. Якщо сума не буде сплачена до [overdue_date], ви не зможете працювати з панеллю адміністратора, поки не <a href=\"[pay_url]\" target=\"_blank\">сплатите заборгованість</a>."
+
+msgctxt "Languages::vendor_debt_payout.debt_near_limit_message"
+msgid "Your account balance is currently [current_balance]. If it reaches [minimal_balance], you won't be able to use your administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Ваш поточний баланс становить [current_balance]. Якщо він досягне [minimal_balance], ви не зможете користуватися панеллю адміністратора, поки не <a href=\"[pay_url]\" target=\"_blank\">сплатите заборгованість</a>."
+
+msgctxt "Languages::vendor_debt_payout.block_alert"
+msgid "<p>Your access to the administration panel has been restricted automatically because you have reached the limit of negative account balance or haven't paid a fee for your vendor plan in time.</p><p>Your current account balance is [current_balance].</p><p>Please <a href=\"[pay_url]\">pay the marketplace fees</a> — once the payment is processed, your access to the administration panel will be restored automatically.</p>"
+msgstr "<p>Ваш доступ до панелі адміністратора було автоматично обмежено, тому що ви досягли ліміту негативного балансу або не сплатили свій тарифний план вчасно.</p> <p>Ваш поточний баланс становить [current_balance].</p> <p> <a href=\"[pay_url]\">Сплатіть заборгованість</a> - після обробки платежу ваш доступ до панелі адміністратора відновиться автоматично</p>"
+

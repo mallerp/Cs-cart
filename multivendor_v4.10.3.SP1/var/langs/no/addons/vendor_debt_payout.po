@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_debt_payout.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:14\n"
+
+msgctxt "Addons::name::vendor_debt_payout"
+msgid "Vendor debt payout"
+msgstr "Forhandler gjeld utbetaling"
+
+msgctxt "Addons::description::vendor_debt_payout"
+msgid "Restricts the functionality of vendors' admin panels under certain conditions and enables your vendors to pay their fees and debts from their admin panel dashboards. It is as easy as purchasing a product from the storefront."
+msgstr "Begrenser funksjonaliteten til forhandlerens adminpanel under visse forhold og gjør det mulig for forhandlere å betale sine gebyrer og gjeld fra kontrollpanelets dashboard. Det er like enkelt som å kjøpe et produkt fra butikk forsiden."
+
+msgctxt "Languages::vendor_debt_payout.debt_payout"
+msgid "Marketplace fees"
+msgstr "Markedsplass avgifter"
+
+msgctxt "Languages::vendor_debt_payout.debt_payout_w_order"
+msgid "Marketplace fees (order #[id])"
+msgstr "Markedsplass avgifter (order #[id])"
+
+msgctxt "Languages::vendor_debt_payout.pay_fees"
+msgid "Pay the fees"
+msgstr "Betal avgiftene"
+
+msgctxt "Languages::vendor_debt_payout.vendor_debt_limit"
+msgid "Restrict admin panel functions if vendor's debt reaches"
+msgstr "Begrenser enkelte admin funksjoner hvis leverandørens gjeld når"
+
+msgctxt "Languages::ttc_vendor_debt_payout.vendor_debt_limit"
+msgid "When a vendor's balance is negative and reaches this number, the vendor's administration panel will not allow to perform any actions. When a vendor's negative balance is half this number, the vendor will see the warning specified in the \"vendor_debt_payout.debt_near_limit_message\" language variable."
+msgstr "Når forhandlerens balanse er negativ og når denne summen, tillater leverandørens adminpanel ikke å utføre enkelte handlinger. Når en forhandlers negative balanse er halvparten av dette nummeret, vil leverandøren se advarselen angitt i språkvariabelen \"vendor_debt_payout.debt_near_limit_message\"."
+
+msgctxt "Languages::vendor_debt_payout.payout_overdue_limit"
+msgid "Grace period for vendor plan fees"
+msgstr "Tillat periode for forhandlerens avgifter"
+
+msgctxt "Languages::ttc_vendor_debt_payout.payout_overdue_limit"
+msgid "Payments for plans are drawn from the vendor's account balance. If the balance gets negative after the fee is taken, and this period expires, the vendor's administration panel will not allow to perform any actions until the vendor pays the debt."
+msgstr "Betalinger for planer er trukket fra forhandlerens kontosaldo. Hvis saldoen blir negativ etter at gebyret er tatt, og denne perioden utløper, vil forhandlerens adminpanel ikke tillate å utføre visse handlinger før forhandleren betaler gjelden."
+
+msgctxt "Languages::vendor_debt_payout.day_or_days"
+msgid "day(s)"
+msgstr "dag(er)"
+
+msgctxt "Languages::vendor_debt_payout.pending_payout_message"
+msgid "You need to pay the fee of [fee_amount] for using the [plan_name] plan. Your current account balance is [current_balance]. If the fee isn't paid until [overdue_date], you won't be able to work with the administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Du må betale avgiften på [fee_amount] for å bruke [plan_name] planen. Din nåværende kontosaldo er [current_balance]. Hvis gebyret ikke er betalt innen [overdue_date], vil du ikke kunne arbeide med adminpanelet før du <a href=\"[pay_url]\" target=\"_blank\">betaler alle gebyrene dine</a>."
+
+msgctxt "Languages::vendor_debt_payout.debt_near_limit_message"
+msgid "Your account balance is currently [current_balance]. If it reaches [minimal_balance], you won't be able to use your administration panel until you <a href=\"[pay_url]\" target=\"_blank\">pay all your marketplace fees</a>."
+msgstr "Kontosaldoen din er for øyeblikket [current_balance]. Hvis den når [minimal_balance], vil du ikke kunne bruke adminpanelet før du <a href=\"[pay_url]\" target=\"_blank\">betaler alle gebyrene dine</a>."
+
+msgctxt "Languages::vendor_debt_payout.block_alert"
+msgid "<p>Your access to the administration panel has been restricted automatically because you have reached the limit of negative account balance or haven't paid a fee for your vendor plan in time.</p><p>Your current account balance is [current_balance].</p><p>Please <a href=\"[pay_url]\">pay the marketplace fees</a> — once the payment is processed, your access to the administration panel will be restored automatically.</p>"
+msgstr "<p>Din tilgang til adminpanelet er begrenset automatisk fordi du har nådd grensen for negativ kontosaldo eller ikke har betalt et gebyr for leverandørplanen din i tide.</p><p>Din nåværende kontosaldo er [current_balance].</p><p>Vennligst <a href=\"[pay_url]\">betal avgiftene</a> — når betalingen er behandlet, blir tilgangen til adminpanelet automatisk gjenopprettet.</p>"
+

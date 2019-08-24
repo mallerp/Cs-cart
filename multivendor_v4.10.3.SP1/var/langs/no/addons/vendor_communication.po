@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_communication.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:14\n"
+
+msgctxt "Addons::name::vendor_communication"
+msgid "Customer-to-Vendor Communication"
+msgstr "Kunde-til-forhandler kommunikasjon"
+
+msgctxt "Addons::description::vendor_communication"
+msgid "Allows customers to communicate with vendors directly via the store's interface."
+msgstr "Tillater kunder å kommunisere med forhandlere direkte via butikkens grensesnitt."
+
+msgctxt "SettingsSections::vendor_communication::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsSections::vendor_communication::notifications"
+msgid "Notifications"
+msgstr "Varslinger"
+
+msgctxt "SettingsOptions::vendor_communication::notify_admin"
+msgid "Notify admin"
+msgstr "Varsle admin"
+
+msgctxt "SettingsOptions::vendor_communication::notify_vendor"
+msgid "Notify vendor"
+msgstr "Varsle forhandler"
+
+msgctxt "SettingsOptions::vendor_communication::notify_customer"
+msgid "Notify customer"
+msgstr "Varsle kunde"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_product"
+msgid "Contact button on product pages"
+msgstr "Kontakt knapp på produktsider"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_vendor"
+msgid "Contact button in vendor microstore"
+msgstr "Kontakt knapp i forhandlerens mikrobutikk"
+
+msgctxt "SettingsTooltips::vendor_communication::notify_admin"
+msgid "Send an email to root administrator about every newly-posted message."
+msgstr "Send en e-post til hoved administrator om hver nyoppstartede melding."
+
+msgctxt "SettingsTooltips::vendor_communication::notify_vendor"
+msgid "Send emails to vendor's contact email address about newly-posted messages."
+msgstr "Send e-post til forhandlerens e-postadresse om nylig innsendte meldinger."
+
+msgctxt "SettingsTooltips::vendor_communication::notify_customer"
+msgid "Send emails to customers about newly-posted messages in their threads."
+msgstr "Send e-post til kunder om nyopprettede meldinger i trådene deres."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_product"
+msgid "Show the \"Contact vendor\" button on product pages."
+msgstr "Vis \"Kontakt forhandler\" knapp på produktsidene."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_vendor"
+msgid "Show the \"Contact vendor\" button in vendors' microstores."
+msgstr "Vis \"Kontakt forhandler\" knapp i forhandlerens mikrobutikk."
+
+msgctxt "Languages::vendor_communication.messages"
+msgid "Messages"
+msgstr "Meldinger"
+
+msgctxt "Languages::vendor_communication.message_center"
+msgid "Message center"
+msgstr "Meldingssenter"
+
+msgctxt "Languages::vendor_communication.message_center_menu_description"
+msgid "Customer-to-vendor messages"
+msgstr "Kunde-til-forhandler meldinger"
+
+msgctxt "Languages::vendor_communication.author"
+msgid "Author"
+msgstr "Skrevet av"
+
+msgctxt "Languages::vendor_communication.date"
+msgid "Date"
+msgstr "Dato"
+
+msgctxt "Languages::vendor_communication.message"
+msgid "Message"
+msgstr "Melding"
+
+msgctxt "Languages::vendor_communication.contact_vendor"
+msgid "Contact vendor"
+msgstr "Kontakt forhandleren"
+
+msgctxt "Languages::vendor_communication.contact_vendor_name"
+msgid "Contact [vendor_name]"
+msgstr "Kontakt [vendor_name]"
+
+msgctxt "Languages::vendor_communication.created_at"
+msgid "Created on"
+msgstr "Opprettet"
+
+msgctxt "Languages::vendor_communication.new_thread_created"
+msgid "Your message has been sent to <b>[vendor_name]</b>.<br/><br/>The vendor's reply will be sent to the email address of your account. To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Messages\" section of the \"My account\" menu."
+msgstr "Din melding er sendt til <b>[vendor_name]</b>.<br/><br/>Forhandlerens svar vil bli sendt til e-postadressen til kontoen din. For å se meldingsloggen din, vennligst <a href=\"[thread_url]\">gå til meldingssenteret</a> under menyen \"Min konto\"."
+
+msgctxt "Languages::vendor_communication.cannot_update_thread"
+msgid "Cannot update thread"
+msgstr "Kan ikke oppdatere tråden"
+
+msgctxt "Languages::vendor_communication.cannot_create_thread"
+msgid "Cannot create thread"
+msgstr "Kan ikke opprette tråden"
+
+msgctxt "Languages::email_template.vendor_communication.notify_admin"
+msgid "Customer-to-Vendor Communication: Admin Notification"
+msgstr "Kunde-til-forhandler kommunikasjon: Admin varsling"
+
+msgctxt "Languages::email_template.vendor_communication.notify_customer"
+msgid "Customer-to-Vendor Communication: Customer Notification"
+msgstr "Kunde-til-forhandler kommunikasjon: Kunde varsling"
+
+msgctxt "Languages::vendor_communication.you_have_new_message"
+msgid "You have a new <a href=\"[thread_url]\">message</a> from [message_from]."
+msgstr "Du har en ny <a href=\"[thread_url]\">melding</a> fra [message_from]."
+
+msgctxt "Languages::vendor_communication.subject_email"
+msgid "You have a new message from [message_from]"
+msgstr "Du har en ny melding fra [message_from]"
+
+msgctxt "Languages::vendor_communication.thread"
+msgid "Thread #[thread_id]"
+msgstr "Tråd #[thread_id]"
+
+msgctxt "Languages::vendor_communication.contact_with"
+msgid "#[thread_id]. Communication with [thread_company]"
+msgstr "#[thread_id]. Kommunikasjon med [thread_company]"
+
+msgctxt "Languages::vendor_communication.ticket"
+msgid "Thread"
+msgstr "Tråd"
+
+msgctxt "Languages::vendor_communication.no_messages_found"
+msgid "No messages found"
+msgstr "Ingen meldinger funnet"
+
+msgctxt "Languages::vendor_communication.customer_name"
+msgid "Customer name"
+msgstr "Kundenavn"
+
+msgctxt "Languages::vendor_communication.error_message"
+msgid "Please enter your message"
+msgstr "Skriv inn meldingen"
+
+msgctxt "Languages::vendor_communication.type_message"
+msgid "Type a message..."
+msgstr "Skriv inn en melding..."
+
+msgctxt "Languages::vendor_communication.you"
+msgid "You"
+msgstr "Du"
+
+msgctxt "Languages::vendor_communication.thread_deleted"
+msgid "Thread has been deleted"
+msgstr "Tråden har blitt slettet"
+
+msgctxt "Languages::vendor_communication.threads_deleted"
+msgid "Threads have been deleted"
+msgstr "Trådene har blitt slettet"
+
+msgctxt "Languages::vendor_communication.cannot_delete_thread"
+msgid "Cannot delete thread"
+msgstr "Kan ikke slette tråden"
+
+msgctxt "Languages::vendor_communication.cannot_delete_threads"
+msgid "Cannot delete threads"
+msgstr "Kan ikke slette tråder"
+
+msgctxt "Languages::vendor_communication.cannot_post_message"
+msgid "Cannot post message"
+msgstr "Kan ikke legge inn meldingen"
+
+msgctxt "Languages::vendor_communication.no_threads_found"
+msgid "No threads found"
+msgstr "Ingen tråder funnet"
+
+msgctxt "Languages::vendor_communication.required_field_is_missing"
+msgid "The [field_name] field is required"
+msgstr "Feltet [field_name] er påkrevd"
+
+msgctxt "Languages::vendor_communication.invalid_thread_object_type"
+msgid "Provided thread object type is invalid"
+msgstr "Provided thread object type is invalid"
+
+msgctxt "Languages::vendor_communication.please_log_in_to_contact_vendor"
+msgid "Please sign in to contact the vendor"
+msgstr "Vennligst logg inn for å kontakte forhandleren"
+
+msgctxt "Languages::privileges.manage_vendor_communication"
+msgid "Can edit"
+msgstr ""
+
+msgctxt "Languages::privileges.view_vendor_communication"
+msgid "Can view"
+msgstr ""
+
+msgctxt "Languages::privilege_groups.vendor_communication"
+msgid "Message center"
+msgstr ""
+

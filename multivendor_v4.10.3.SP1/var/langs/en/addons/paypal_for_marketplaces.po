@@ -1,0 +1,233 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal for Marketplaces"
+
+msgctxt "Addons::description::paypal_for_marketplaces"
+msgid "This add-on will help root store administrators to distribute funds automatically among multiple vendors through PayPal."
+msgstr "This add-on will help root store administrators to distribute funds automatically among multiple vendors through PayPal."
+
+msgctxt "SettingsSections::paypal_for_marketplaces::general"
+msgid "General"
+msgstr "General"
+
+msgctxt "SettingsOptions::paypal_for_marketplaces::collect_payouts"
+msgid "Commission includes"
+msgstr "Commission includes"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::N"
+msgid "Order commission"
+msgstr "Order commission"
+
+msgctxt "SettingsVariants::paypal_for_marketplaces::collect_payouts::Y"
+msgid "Order commission and unpaid payouts"
+msgstr "Order commission and unpaid payouts"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_for_marketplaces"
+msgid "PayPal for Marketplaces"
+msgstr "PayPal for Marketplaces"
+
+msgctxt "Languages::paypal_for_marketplaces.bn_code"
+msgid "Partner integration code"
+msgstr "Partner integration code"
+
+msgctxt "Languages::paypal_for_marketplaces.payer_id"
+msgid "Merchant account ID"
+msgstr "Merchant account ID"
+
+msgctxt "Languages::paypal_for_marketplaces.client_id"
+msgid "Client ID"
+msgstr "Client ID"
+
+msgctxt "Languages::paypal_for_marketplaces.secret"
+msgid "Secret"
+msgstr "Secret"
+
+msgctxt "Languages::paypal_for_marketplaces.connect_with_paypal"
+msgid "Connect with PayPal"
+msgstr "Connect with PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.disconnect"
+msgid "Disconnect account"
+msgstr "Disconnect account"
+
+msgctxt "Languages::paypal_for_marketplaces.paypal_account"
+msgid "PayPal account"
+msgstr "PayPal account"
+
+msgctxt "Languages::paypal_for_marketplaces.connected"
+msgid "Connected"
+msgstr "Connected"
+
+msgctxt "Languages::paypal_for_marketplaces.not_connected"
+msgid "Not connected"
+msgstr "Not connected"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connected"
+msgid "Your PayPal account has been successfully connected to the store"
+msgstr "Your PayPal account has been successfully connected to the store"
+
+msgctxt "Languages::paypal_for_marketplaces.account_connection_failure"
+msgid "Unable to connect your PayPal account to the store"
+msgstr "Unable to connect your PayPal account to the store"
+
+msgctxt "Languages::paypal_for_marketplaces.account_disconnected"
+msgid "Your PayPal account has been successfully disconnected from the store"
+msgstr "Your PayPal account has been successfully disconnected from the store"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal_for_the_order"
+msgid "Withdrawal for the order #[order_id]"
+msgstr "Withdrawal for the order #[order_id]"
+
+msgctxt "Languages::paypal_for_marketplaces.refund_id"
+msgid "Refund transaction ID"
+msgstr "Refund transaction ID"
+
+msgctxt "Languages::paypal_for_marketplaces.withdrawal"
+msgid "Withdrawal amount"
+msgstr "Withdrawal amount"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.perform_refund"
+msgid "Give a refund via PayPal for Marketplaces"
+msgstr "Give a refund via PayPal for Marketplaces"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.perform_refund"
+msgid "A refund will be made once an administrator changes the return request status"
+msgstr "A refund will be made once an administrator changes the return request status"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.refund_performed"
+msgid "The refund has been made via PayPal for Marketplaces"
+msgstr "The refund has been made via PayPal for Marketplaces"
+
+msgctxt "Languages::paypal_for_marketplaces.order_id"
+msgid "Order ID in PayPal"
+msgstr "Order ID in PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.capture_id"
+msgid "Capture ID in PayPal"
+msgstr "Capture ID in PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_id"
+msgid "Payout ID in PayPal"
+msgstr "Payout ID in PayPal"
+
+msgctxt "Languages::paypal_for_marketplaces.payout_failure_reason"
+msgid "Payout failure reason"
+msgstr "Payout failure reason"
+
+msgctxt "Languages::paypal_for_marketplaces.own_account_cant_be_used_for_vendor"
+msgid "Your own PayPal account can't be used to connect a vendor to the store"
+msgstr "Your own PayPal account can't be used to connect a vendor to the store"
+
+msgctxt "Languages::paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Order status on refund"
+msgstr "Order status on refund"
+
+msgctxt "Languages::ttc_paypal_for_marketplaces.rma.order_status_on_refund"
+msgid "Determines whether or not to change the order status after a refund was performed via the RMA add-on."
+msgstr "Determines whether or not to change the order status after a refund was performed via the RMA add-on."
+
+msgctxt "Languages::paypal_for_marketplaces.do_not_change"
+msgid "Do not change"
+msgstr "Do not change"
+
+msgctxt "Languages::paypal_for_marketplaces.set_status_to"
+msgid "Set to:"
+msgstr "Set to:"
+
+msgctxt "Languages::paypal_for_marketplaces.webhook_notice"
+msgid "Specify the following URL when configuring a webhook for your REST application: <code>[url]</code>"
+msgstr "Specify the following URL when configuring a webhook for your REST application: <code>[url]</code>"
+
+msgctxt "Languages::paypal_for_marketplaces.payment_notification"
+msgid "PayPal for Marketplaces payment notification: [payload]"
+msgstr "PayPal for Marketplaces payment notification: [payload]"
+
+msgctxt "Languages::paypal_for_marketplaces.settings.account"
+msgid "Account settings"
+msgstr "Account settings"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.funding"
+msgid "Alternative funding sources"
+msgstr "Alternative funding sources"
+
+msgctxt "Languages::paypal_for_markeplaces.settings.style"
+msgid "Button appearance"
+msgstr "Button appearance"
+
+msgctxt "Languages::paypal_for_marketplaces.source.card"
+msgid "Allow buyers to pay with their credit or debit card"
+msgstr "Allow buyers to pay with their credit or debit card"
+
+msgctxt "Languages::paypal_for_marketplaces.source.elv"
+msgid "Allow German buyers to pay with their bank account using Elektronisches Lastschriftverfahren"
+msgstr "Allow German buyers to pay with their bank account using Elektronisches Lastschriftverfahren"
+
+msgctxt "Languages::paypal_for_marketplaces.source.credit"
+msgid "Allow buyers to pay with PayPal Credit"
+msgstr "Allow buyers to pay with PayPal Credit"
+
+msgctxt "Languages::paypal_for_marketplaces.source.venmo"
+msgid "Allow buyers to pay with Venmo digital wallet"
+msgstr "Allow buyers to pay with Venmo digital wallet"
+
+msgctxt "Languages::paypal_for_marketplaces.style.shape"
+msgid "Shape"
+msgstr "Shape"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.pill"
+msgid "Pill"
+msgstr "Pill"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Rectangular"
+
+msgctxt "Languages::paypal_for_marketplaces.style.color"
+msgid "Color"
+msgstr "Color"
+
+msgctxt "Languages::paypal_for_marketplaces.color.gold"
+msgid "Gold"
+msgstr "Gold"
+
+msgctxt "Languages::paypal_for_marketplaces.color.blue"
+msgid "Blue"
+msgstr "Blue"
+
+msgctxt "Languages::paypal_for_marketplaces.color.silver"
+msgid "Silver"
+msgstr "Silver"
+
+msgctxt "Languages::paypal_for_marketplaces.color.black"
+msgid "Black"
+msgstr "Black"
+
+msgctxt "Languages::paypal_for_marketplaces.shape.rect"
+msgid "Rectangular"
+msgstr "Rectangular"
+
+msgctxt "Languages::paypal_for_marketplaces.style.size"
+msgid "Size"
+msgstr "Size"
+
+msgctxt "Languages::paypal_for_marketplaces.size.small"
+msgid "Small (150&times;25px)"
+msgstr "Small (150&times;25px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.medium"
+msgid "Medium (250&times;35px)"
+msgstr "Medium (250&times;35px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.large"
+msgid "Large (350&times;40px)"
+msgstr "Large (350&times;40px)"
+
+msgctxt "Languages::paypal_for_marketplaces.size.responsive"
+msgid "Responsive"
+msgstr "Responsive"

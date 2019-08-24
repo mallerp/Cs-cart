@@ -1,0 +1,91 @@
+.pac-container {
+    z-index: 1101;
+}
+
+#vendors_map {
+    min-height: 500px;
+    height: 100%;
+}
+
+.ty-grid-list__company-distance {
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+    .ty-company-distance {
+        line-height: 120%;
+        color: spin(desaturate(lighten(@font, 32%), 21%), -211);
+        display: block;
+        text-align: center;
+        word-wrap: break-word;
+    
+          &:hover {
+            color: @secondary_button;
+          }
+    }
+}
+
+.ty-sellers-list__item-distance {
+
+    .ty-company-distance {
+        line-height: 120%;
+        color: spin(desaturate(lighten(@font, 32%), 21%), -211);
+        word-wrap: break-word;
+
+        &:hover {
+            color: @secondary_button;
+        }
+    }
+}
+
+.ty-filter-products-by-geolocation {
+
+    &-popup {
+
+        &__item {
+            float: left;
+            padding: 8px 13px;
+            color: #2d3540;
+
+            &:hover {
+                background: darken(@base, 4%);
+                color: darken(@top_panel_links, 10%);
+            }
+        }
+
+        &__icon {
+            margin-right: 5px;
+            float: left;
+            margin-top: 2px;
+        }
+
+        &__title {
+            margin-bottom: 10px;
+            font-size: @headings_font_size;
+            color: @font;
+            word-wrap: break-word;
+        }
+
+        &__not-your-city {
+            margin-bottom: 10px;
+        }
+    }
+
+    &-filter-address {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+
+        &__input-text {
+            padding-top: 10px;
+            padding-left: 9px;
+        }
+    }
+}
+
+.ty-vendors-locations-use-my-location {
+    font-size: 120%;
+    color: #7c97b1;
+    position: absolute;
+    right: 18px;
+    top: 20px;
+}

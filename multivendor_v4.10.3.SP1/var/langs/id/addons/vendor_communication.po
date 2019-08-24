@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: id\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_communication.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:26\n"
+
+msgctxt "Addons::name::vendor_communication"
+msgid "Customer-to-Vendor Communication"
+msgstr "Customer-to-Vendor Communication"
+
+msgctxt "Addons::description::vendor_communication"
+msgid "Allows customers to communicate with vendors directly via the store's interface."
+msgstr "Memungkinkan pelanggan untuk berkomunikasi dengan vendor secara langsung melalui antarmuka toko."
+
+msgctxt "SettingsSections::vendor_communication::general"
+msgid "General"
+msgstr "Umum"
+
+msgctxt "SettingsSections::vendor_communication::notifications"
+msgid "Notifications"
+msgstr "Pemberitahuan"
+
+msgctxt "SettingsOptions::vendor_communication::notify_admin"
+msgid "Notify admin"
+msgstr "Notify admin"
+
+msgctxt "SettingsOptions::vendor_communication::notify_vendor"
+msgid "Notify vendor"
+msgstr "Beritahu vendor"
+
+msgctxt "SettingsOptions::vendor_communication::notify_customer"
+msgid "Notify customer"
+msgstr "Beritahu pelanggan"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_product"
+msgid "Contact button on product pages"
+msgstr "Tombol kontak pada halaman produk"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_vendor"
+msgid "Contact button in vendor microstore"
+msgstr "Tombol kontak di vendor microstore"
+
+msgctxt "SettingsTooltips::vendor_communication::notify_admin"
+msgid "Send an email to root administrator about every newly-posted message."
+msgstr "Kirim email ke administrator root tentang setiap pesan yang baru diposting."
+
+msgctxt "SettingsTooltips::vendor_communication::notify_vendor"
+msgid "Send emails to vendor's contact email address about newly-posted messages."
+msgstr "Kirim email ke alamat email kontak vendor tentang pesan yang baru diposkan."
+
+msgctxt "SettingsTooltips::vendor_communication::notify_customer"
+msgid "Send emails to customers about newly-posted messages in their threads."
+msgstr "Kirim email kepada pelanggan tentang pesan yang baru diposkan di untaian mereka."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_product"
+msgid "Show the \"Contact vendor\" button on product pages."
+msgstr "Tampilkan tombol \"Vendor kontak\" pada halaman produk."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_vendor"
+msgid "Show the \"Contact vendor\" button in vendors' microstores."
+msgstr "Tampilkan tombol \"Vendor kontak\" di microstores vendor."
+
+msgctxt "Languages::vendor_communication.messages"
+msgid "Messages"
+msgstr "Pesan"
+
+msgctxt "Languages::vendor_communication.message_center"
+msgid "Message center"
+msgstr "Pusat pesan"
+
+msgctxt "Languages::vendor_communication.message_center_menu_description"
+msgid "Customer-to-vendor messages"
+msgstr "Pesan pelanggan-ke-vendor"
+
+msgctxt "Languages::vendor_communication.author"
+msgid "Author"
+msgstr "Penulis"
+
+msgctxt "Languages::vendor_communication.date"
+msgid "Date"
+msgstr "Tanggal"
+
+msgctxt "Languages::vendor_communication.message"
+msgid "Message"
+msgstr "Pesan"
+
+msgctxt "Languages::vendor_communication.contact_vendor"
+msgid "Contact vendor"
+msgstr "Hubungi vendor"
+
+msgctxt "Languages::vendor_communication.contact_vendor_name"
+msgid "Contact [vendor_name]"
+msgstr "Hubungi [vendor_name]"
+
+msgctxt "Languages::vendor_communication.created_at"
+msgid "Created on"
+msgstr "Dibuat pada"
+
+msgctxt "Languages::vendor_communication.new_thread_created"
+msgid "Your message has been sent to <b>[vendor_name]</b>.<br/><br/>The vendor's reply will be sent to the email address of your account. To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Messages\" section of the \"My account\" menu."
+msgstr "Pesan Anda telah dikirim ke <b>[vendor_name]</b>.<br/><br/>Balasan vendor akan dikirim ke alamat email akun Anda. Untuk melihat riwayat pesan Anda, silakan <a href=\"[thread_url]\"> masuk ke Pusat Pesan </a> di bagian \"Pesan\" pada menu \"Akun saya\"."
+
+msgctxt "Languages::vendor_communication.cannot_update_thread"
+msgid "Cannot update thread"
+msgstr "Tidak bisa mengupdate thread"
+
+msgctxt "Languages::vendor_communication.cannot_create_thread"
+msgid "Cannot create thread"
+msgstr "Tidak bisa membuat thread"
+
+msgctxt "Languages::email_template.vendor_communication.notify_admin"
+msgid "Customer-to-Vendor Communication: Admin Notification"
+msgstr "Komunikasi Pelanggan-ke-Vendor: Pemberitahuan Admin"
+
+msgctxt "Languages::email_template.vendor_communication.notify_customer"
+msgid "Customer-to-Vendor Communication: Customer Notification"
+msgstr "Komunikasi Pelanggan-ke-Vendor: Pemberitahuan Pelanggan"
+
+msgctxt "Languages::vendor_communication.you_have_new_message"
+msgid "You have a new <a href=\"[thread_url]\">message</a> from [message_from]."
+msgstr "Anda memiliki <a href=\" [thread_url] \">pesan</a> baru dari [message_from]."
+
+msgctxt "Languages::vendor_communication.subject_email"
+msgid "You have a new message from [message_from]"
+msgstr "Anda memiliki pesan baru dari [message_from]"
+
+msgctxt "Languages::vendor_communication.thread"
+msgid "Thread #[thread_id]"
+msgstr "Thread #[thread_id]"
+
+msgctxt "Languages::vendor_communication.contact_with"
+msgid "#[thread_id]. Communication with [thread_company]"
+msgstr "#[thread_id]. Komunikasi dengan [thread_company]"
+
+msgctxt "Languages::vendor_communication.ticket"
+msgid "Thread"
+msgstr "Benang"
+
+msgctxt "Languages::vendor_communication.no_messages_found"
+msgid "No messages found"
+msgstr "Tidak ditemukan pesan"
+
+msgctxt "Languages::vendor_communication.customer_name"
+msgid "Customer name"
+msgstr "Nama Pelanggan"
+
+msgctxt "Languages::vendor_communication.error_message"
+msgid "Please enter your message"
+msgstr "Silahkan masukkan pesan anda"
+
+msgctxt "Languages::vendor_communication.type_message"
+msgid "Type a message..."
+msgstr "Ketik pesan..."
+
+msgctxt "Languages::vendor_communication.you"
+msgid "You"
+msgstr "Kamu"
+
+msgctxt "Languages::vendor_communication.thread_deleted"
+msgid "Thread has been deleted"
+msgstr "Thread telah dihapus"
+
+msgctxt "Languages::vendor_communication.threads_deleted"
+msgid "Threads have been deleted"
+msgstr "Thread telah dihapus"
+
+msgctxt "Languages::vendor_communication.cannot_delete_thread"
+msgid "Cannot delete thread"
+msgstr "Tidak bisa menghapus thread"
+
+msgctxt "Languages::vendor_communication.cannot_delete_threads"
+msgid "Cannot delete threads"
+msgstr "Tidak bisa menghapus benang"
+
+msgctxt "Languages::vendor_communication.cannot_post_message"
+msgid "Cannot post message"
+msgstr "Tidak bisa posting pesan"
+
+msgctxt "Languages::vendor_communication.no_threads_found"
+msgid "No threads found"
+msgstr "Benang tidak ditemukan"
+
+msgctxt "Languages::vendor_communication.required_field_is_missing"
+msgid "The [field_name] field is required"
+msgstr "[field_name] lapangan diperlukan"
+
+msgctxt "Languages::vendor_communication.invalid_thread_object_type"
+msgid "Provided thread object type is invalid"
+msgstr "Jenis objek thread yang diberikan tidak valid"
+
+msgctxt "Languages::vendor_communication.please_log_in_to_contact_vendor"
+msgid "Please sign in to contact the vendor"
+msgstr "Silakan masuk untuk menghubungi vendor"
+
+msgctxt "Languages::privileges.manage_vendor_communication"
+msgid "Can edit"
+msgstr ""
+
+msgctxt "Languages::privileges.view_vendor_communication"
+msgid "Can view"
+msgstr ""
+
+msgctxt "Languages::privilege_groups.vendor_communication"
+msgid "Message center"
+msgstr ""
+

@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Greek\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: el\n"
+"X-Crowdin-File: /release-4.10.3/addons/master_products.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:06\n"
+
+msgctxt "Addons::name::master_products"
+msgid "Common Products for Vendors [Beta]"
+msgstr "Κοινά προϊόντα για πωλητές [Beta]"
+
+msgctxt "Addons::description::master_products"
+msgid "Allows you to create a single product base: vendors choose which of the existing products they sell."
+msgstr "Σας επιτρέπει να δημιουργήσετε ένα μόνο προϊόν βάσης: Οι προμηθευτές επιλέγουν ποια από τα υπάρχοντα προϊόντα θα πωλούν."
+
+msgctxt "SettingsSections::master_products::general"
+msgid "General"
+msgstr "Γενικά"
+
+msgctxt "SettingsOptions::master_products::allow_vendors_to_create_products"
+msgid "Allow vendors to create products"
+msgstr "Επιτρέπει στους προμηθευτές να δημιουργήσουν προϊόντα"
+
+msgctxt "SettingsTooltips::master_products::allow_vendors_to_create_products"
+msgid "If you don't allow it, vendors will only be able to sell the products that you added to the marketplace."
+msgstr "Αν δεν το επιτρέπετε, οι προμηθευτές θα μπορούν να πουλήσουν μόνο προϊόντα που εσείς έχετε προσθέσει στο marketplace."
+
+msgctxt "Languages::master_products.vendor_products_tab_name"
+msgid "Sellers of this product"
+msgstr "Πωλητές αυτού του προϊόντος"
+
+msgctxt "Languages::master_products.vendor_products_filling"
+msgid "Sellers of this product"
+msgstr "Πωλητές αυτού του προϊόντος"
+
+msgctxt "Languages::master_products.vendor_products_block_name"
+msgid "Sellers of a product"
+msgstr "Πωλητές ενός προϊόντος"
+
+msgctxt "Languages::master_products.products_that_vendors_can_sell"
+msgid "Products that vendors can sell"
+msgstr "Προϊόντα τα οποία οι προμηθευτές επιτρέπεται να πουλήσουν"
+
+msgctxt "Languages::master_products.products_being_sold"
+msgid "Products being sold"
+msgstr "Προϊόντα προς πώληση"
+
+msgctxt "Languages::master_products.all_products"
+msgid "All products"
+msgstr "Όλα τα προϊόντα"
+
+msgctxt "Languages::master_products.add_product_from_catalog"
+msgid "Add product from catalog"
+msgstr "Προσθήκη προϊόντος από κατάλογο"
+
+msgctxt "Languages::master_products.create_new_product"
+msgid "Create new product"
+msgstr "Δημιουργία νέου προϊόντος"
+
+msgctxt "Languages::master_products.sell_this"
+msgid "Sell this"
+msgstr "Πουλήστε αυτό"
+
+msgctxt "Languages::master_products.for_sale"
+msgid "For sale"
+msgstr "Προς πώληση"
+
+msgctxt "Languages::master_products.sell_selected"
+msgid "Sell selected"
+msgstr "Πώληση επιλεγμένων"
+
+msgctxt "Languages::master_products.products_were_added_to_your_products"
+msgid "[n] product was added to your products|[n] products were added to your products"
+msgstr "[n] προϊόν προστέθηκε στο καλάθι σας|[n] προϊόντα προστέθηκαν στο καλάθι σας"
+
+msgctxt "Languages::master_products.master_product"
+msgid "Common product"
+msgstr "Κοινά προϊόν"
+
+msgctxt "Languages::master_products.all_vendors_master_product"
+msgid "All vendors (common product)"
+msgstr "Όλοι οι Πωλητές (κοινό προϊόν)"
+
+msgctxt "Languages::master_products.exported_products"
+msgid "Products to export"
+msgstr "Προϊόντα προς εξαγωγή"
+
+msgctxt "Languages::master_products.price_from"
+msgid "From [formatted_price]"
+msgstr "Από [formatted_price]"
+
+msgctxt "Languages::master_products.product_type.offer"
+msgid "Vendor offer"
+msgstr ""
+
+msgctxt "Languages::master_products.upgrade_notification.title"
+msgid "Common Products for Vendors: Add-on now works only with global options"
+msgstr ""
+
+msgctxt "Languages::master_products.upgrade_notification.message"
+msgid "<p>For technical reasons, the <b>[master_product_addon]</b> add-on works only with global options now. If any vendor sells a common product, then we have already converted all options from that product into global options during the upgrade.</p>"
+msgstr ""
+

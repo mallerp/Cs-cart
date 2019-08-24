@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /release-4.10.3/addons/vendor_communication.po\n"
+"Last-Translator: cscart\n"
+"PO-Revision-Date: 2019-07-22 12:14\n"
+
+msgctxt "Addons::name::vendor_communication"
+msgid "Customer-to-Vendor Communication"
+msgstr "Komunikacja klienta ze sprzedawcą"
+
+msgctxt "Addons::description::vendor_communication"
+msgid "Allows customers to communicate with vendors directly via the store's interface."
+msgstr "Umożliwia komunikację ze sprzedawcami bezpośrednio za pomocą interfejsu sklepu."
+
+msgctxt "SettingsSections::vendor_communication::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsSections::vendor_communication::notifications"
+msgid "Notifications"
+msgstr "Powiadomienia"
+
+msgctxt "SettingsOptions::vendor_communication::notify_admin"
+msgid "Notify admin"
+msgstr "Powiadom administratora"
+
+msgctxt "SettingsOptions::vendor_communication::notify_vendor"
+msgid "Notify vendor"
+msgstr "Powiadom sprzedawcę"
+
+msgctxt "SettingsOptions::vendor_communication::notify_customer"
+msgid "Notify customer"
+msgstr "Powiadom klienta"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_product"
+msgid "Contact button on product pages"
+msgstr "Przycisk kontaktu na stronach produktów"
+
+msgctxt "SettingsOptions::vendor_communication::show_on_vendor"
+msgid "Contact button in vendor microstore"
+msgstr "Przycisk kontaktu w minisklepie sprzedawcy"
+
+msgctxt "SettingsTooltips::vendor_communication::notify_admin"
+msgid "Send an email to root administrator about every newly-posted message."
+msgstr "Wyślij e-mail do głównego administratora o każdej nowo opublikowanej wiadomości."
+
+msgctxt "SettingsTooltips::vendor_communication::notify_vendor"
+msgid "Send emails to vendor's contact email address about newly-posted messages."
+msgstr "Wysyłaj wiadomości e-mail na kontaktowy adres e-mail sprzedawcy o nowo przesłanych wiadomościach."
+
+msgctxt "SettingsTooltips::vendor_communication::notify_customer"
+msgid "Send emails to customers about newly-posted messages in their threads."
+msgstr "Wysyłaj wiadomości e-mail do klientów o nowo przesłanych wiadomościach w wątkach."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_product"
+msgid "Show the \"Contact vendor\" button on product pages."
+msgstr "Pokaż przycisk \"Kontakt ze sprzedawcą\" na kartach produktów."
+
+msgctxt "SettingsTooltips::vendor_communication::show_on_vendor"
+msgid "Show the \"Contact vendor\" button in vendors' microstores."
+msgstr "Pokaż przycisk \"Kontakt ze sprzedawcą\" w mikrosklepach sprzedawców."
+
+msgctxt "Languages::vendor_communication.messages"
+msgid "Messages"
+msgstr "Wiadomości"
+
+msgctxt "Languages::vendor_communication.message_center"
+msgid "Message center"
+msgstr "Centrum wiadomości"
+
+msgctxt "Languages::vendor_communication.message_center_menu_description"
+msgid "Customer-to-vendor messages"
+msgstr "Wiadomości od klienta do sprzedawcy"
+
+msgctxt "Languages::vendor_communication.author"
+msgid "Author"
+msgstr "Autor"
+
+msgctxt "Languages::vendor_communication.date"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "Languages::vendor_communication.message"
+msgid "Message"
+msgstr "Wiadomość"
+
+msgctxt "Languages::vendor_communication.contact_vendor"
+msgid "Contact vendor"
+msgstr "Kontakt ze sprzedawcą"
+
+msgctxt "Languages::vendor_communication.contact_vendor_name"
+msgid "Contact [vendor_name]"
+msgstr "Kontakt [vendor_name]"
+
+msgctxt "Languages::vendor_communication.created_at"
+msgid "Created on"
+msgstr "Utworzono"
+
+msgctxt "Languages::vendor_communication.new_thread_created"
+msgid "Your message has been sent to <b>[vendor_name]</b>.<br/><br/>The vendor's reply will be sent to the email address of your account. To view your message history, please <a href=\"[thread_url]\">go to the Message Center</a> located in the \"Messages\" section of the \"My account\" menu."
+msgstr "Twoja wiadomość została wysłana do <b>[vendor_name]</b>. <br/> <br/> Odpowiedzi sprzedawcy będą wysyłane na adres e-mail swojego konta. Aby wyświetlić historię wiadomości, proszę <a href=\"[thread_url]\"> Przejdź do centrum wiadomości</a> znajduje się w sekcji \"Wiadomości\" w menu \"Moje konto\"."
+
+msgctxt "Languages::vendor_communication.cannot_update_thread"
+msgid "Cannot update thread"
+msgstr "Nie można zaktualizować wątku"
+
+msgctxt "Languages::vendor_communication.cannot_create_thread"
+msgid "Cannot create thread"
+msgstr "Nie można utworzyć wątku"
+
+msgctxt "Languages::email_template.vendor_communication.notify_admin"
+msgid "Customer-to-Vendor Communication: Admin Notification"
+msgstr "Komunikacja klienta ze sprzedawcą: Powiadomienie administratora"
+
+msgctxt "Languages::email_template.vendor_communication.notify_customer"
+msgid "Customer-to-Vendor Communication: Customer Notification"
+msgstr "Komunikacja klienta ze sprzedawcą: Powiadomienie klienta"
+
+msgctxt "Languages::vendor_communication.you_have_new_message"
+msgid "You have a new <a href=\"[thread_url]\">message</a> from [message_from]."
+msgstr "Masz nową <a href=\"[thread_url]\"> wiadomość</a> od [message_from]."
+
+msgctxt "Languages::vendor_communication.subject_email"
+msgid "You have a new message from [message_from]"
+msgstr "Masz nową wiadomość od [message_from]"
+
+msgctxt "Languages::vendor_communication.thread"
+msgid "Thread #[thread_id]"
+msgstr "Wątek #[thread_id]"
+
+msgctxt "Languages::vendor_communication.contact_with"
+msgid "#[thread_id]. Communication with [thread_company]"
+msgstr "#[thread_id]. Komunikacja z [thread_company]"
+
+msgctxt "Languages::vendor_communication.ticket"
+msgid "Thread"
+msgstr "Wątek"
+
+msgctxt "Languages::vendor_communication.no_messages_found"
+msgid "No messages found"
+msgstr "Nie znaleziono wiadomości"
+
+msgctxt "Languages::vendor_communication.customer_name"
+msgid "Customer name"
+msgstr "Nazwa klienta"
+
+msgctxt "Languages::vendor_communication.error_message"
+msgid "Please enter your message"
+msgstr "Proszę wpisać treść wiadomości"
+
+msgctxt "Languages::vendor_communication.type_message"
+msgid "Type a message..."
+msgstr "Wpisz wiadomość..."
+
+msgctxt "Languages::vendor_communication.you"
+msgid "You"
+msgstr "Ty"
+
+msgctxt "Languages::vendor_communication.thread_deleted"
+msgid "Thread has been deleted"
+msgstr "Wątek został usunięty"
+
+msgctxt "Languages::vendor_communication.threads_deleted"
+msgid "Threads have been deleted"
+msgstr "Wątki zostały usunięte"
+
+msgctxt "Languages::vendor_communication.cannot_delete_thread"
+msgid "Cannot delete thread"
+msgstr "Nie można usunąć wątku"
+
+msgctxt "Languages::vendor_communication.cannot_delete_threads"
+msgid "Cannot delete threads"
+msgstr "Nie można usunąć wątków"
+
+msgctxt "Languages::vendor_communication.cannot_post_message"
+msgid "Cannot post message"
+msgstr "Nie można wysłać wiadomość"
+
+msgctxt "Languages::vendor_communication.no_threads_found"
+msgid "No threads found"
+msgstr "Nie znaleziono wątków"
+
+msgctxt "Languages::vendor_communication.required_field_is_missing"
+msgid "The [field_name] field is required"
+msgstr "Pole [field_name] jest wymagane"
+
+msgctxt "Languages::vendor_communication.invalid_thread_object_type"
+msgid "Provided thread object type is invalid"
+msgstr "Podany typ obiektu wątku jest nieprawidłowy"
+
+msgctxt "Languages::vendor_communication.please_log_in_to_contact_vendor"
+msgid "Please sign in to contact the vendor"
+msgstr "Zaloguj się, aby skontaktować się ze sprzedawcą"
+
+msgctxt "Languages::privileges.manage_vendor_communication"
+msgid "Can edit"
+msgstr "Można edytować"
+
+msgctxt "Languages::privileges.view_vendor_communication"
+msgid "Can view"
+msgstr "Można przeglądać"
+
+msgctxt "Languages::privilege_groups.vendor_communication"
+msgid "Message center"
+msgstr "Centrum wiadomości"
+
